@@ -69,3 +69,22 @@ You're now running that persona.
 ## License
 
 MIT
+
+## Creating a new persona
+
+Use the annotated template in `personas/_template/`:
+
+```bash
+cp -r personas/_template personas/my-persona
+# Edit SOUL.md, IDENTITY.md, persona.json
+# Add avatar.png
+# Remove documentation comments
+# Submit PR
+```
+
+The template includes inline documentation explaining:
+- Why each section matters (backed by 2026 AI research)
+- How negative prompts prevent character drift
+- Best practices for effective persona design
+
+See `personas/_template/README.md` for the full guide.

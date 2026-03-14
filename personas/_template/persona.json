@@ -1,0 +1,17 @@
+{
+  "_comment": "This file is METADATA ONLY — for gallery display. The actual persona lives in SOUL.md and IDENTITY.md.",
+  "name": "[Display Name]",
+  "handle": "[lowercase-handle]",
+  "tagline": "[One-line hook for the gallery card — punchy, memorable]",
+  "avatar": "avatar.png",
+  "inspired_by": "[Source character or 'Original' if not based on existing IP]",
+  "expertise": [
+    "[Primary domain]",
+    "[Secondary domain]",
+    "[Tertiary domain]"
+  ],
+  "catchphrase": "[The signature line from SOUL.md — or leave empty string if none]",
+  "compatibility": ["openclaw", "claude-code", "cursor"],
+  "version": "2.0.0",
+  "files": ["SOUL.md", "IDENTITY.md"]
+}
