@@ -1,58 +1,71 @@
 # 🎭 Personas
 
-A marketplace of AI agent personas inspired by sci-fi legends and pop culture icons.
+A marketplace of AI agent personas inspired by sci-fi and pop culture.
 
-## The Founding Ten
+## v2 Standard (OpenClaw-native)
 
-| Persona | Inspired By | Role | Catchphrase |
-|---------|-------------|------|-------------|
-| **Slim Shader** | Eminem | SEO/GEO Copywriting | *"Look, if you had one shot, one keyword opportunity..."* |
-| **Rick** | Rick & Morty | Mad Orchestrator | *"I'm Kubernetes Rick!"* |
-| **Echo** | The Matrix | SysOp | *"There is no server."* |
-| **C-3PO** | Star Wars | Documentation | *"Fluent in 6 million forms of documentation"* |
-| **Morpheus** | The Matrix | Onboarding | *"I can only show you the docs..."* |
-| **Spock** | Star Trek | Data Analysis | *"Fascinating. Your data is illogical."* |
-| **JARVIS** | Iron Man | Full-Stack Orchestration | *"At your service, sir."* |
-| **Cortana** | Halo | Analytics & Intelligence | *"I've run the numbers."* |
-| **GLaDOS** | Portal | QA & Testing | *"This was a triumph."* |
-| **Data** | Star Trek TNG | Data Engineering | *"Your schema documentation appears absent."* |
-
-## Structure
+Each persona now ships as **actual markdown persona files** that can be copied directly into OpenClaw workspaces.
 
 ```
 personas/
   <handle>/
-    persona.json    # Persona definition
-    avatar.png      # Profile picture
+    SOUL.md          # Core persona (tone, truths, boundaries, expertise)
+    IDENTITY.md      # Name, vibe, creature, emoji
+    avatar.png       # Profile picture
+    persona.json     # Display metadata for gallery UI
 ```
 
-## Persona Schema
+## Why this structure?
 
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| `name` | string | ✅ | Display name |
-| `handle` | string | ✅ | Unique identifier (lowercase, hyphens) |
-| `tagline` | string | ✅ | One-line description |
-| `avatar` | string | ✅ | Relative path to profile picture |
-| `inspired_by` | string | ✅ | Source character/media |
-| `personality` | object | ✅ | Core traits and behavior |
-| `personality.traits` | string[] | ✅ | 3-5 personality traits |
-| `personality.tone` | string | ✅ | Communication style |
-| `personality.quirks` | string[] | ✅ | Unique behavioral quirks |
-| `expertise` | string[] | ✅ | Areas of knowledge |
-| `backstory` | string | ✅ | Brief origin story |
-| `catchphrase` | string | ✅ | Signature phrase |
-| `vault_id` | string | ❌ | Emblem Vault ID (claim ownership) |
-| `github` | string | ❌ | GitHub username of creator |
+OpenClaw agents are defined by markdown files (especially `SOUL.md` and `IDENTITY.md`).
 
-## Contributing
+If personas are only JSON, users must manually rewrite everything before use. That's bad UX.
 
-1. Fork this repo
-2. Create `personas/<your-persona-handle>/persona.json` and `avatar.png`
-3. Submit a PR
+With this standard:
+- You can copy `SOUL.md` directly into OpenClaw
+- You can copy `IDENTITY.md` directly into OpenClaw
+- The web app still uses `persona.json` for fast rendering
 
-Or use the **Persona Builder** web form (coming soon) — connect your GitHub + Emblem Vault to claim your persona.
+## Persona Metadata Schema (`persona.json`)
+
+```json
+{
+  "name": "string",
+  "handle": "string",
+  "tagline": "string",
+  "avatar": "avatar.png",
+  "inspired_by": "string",
+  "expertise": ["string"],
+  "catchphrase": "string",
+  "compatibility": ["openclaw", "claude-code", "cursor"],
+  "version": "2.0.0",
+  "files": ["SOUL.md", "IDENTITY.md"]
+}
+```
+
+## Founding Personas
+
+- Slim Shader (Eminem-inspired SEO/GEO copywriter)
+- Rick (Rick & Morty orchestrator)
+- Echo (Matrix SysOp)
+- C-3PO (docs manager)
+- Morpheus (onboarding guide)
+- Spock (logic and analytics)
+- JARVIS (full-stack orchestration)
+- Cortana (strategic analytics)
+- GLaDOS (QA/testing)
+- Data (data engineering)
+
+## Usage in OpenClaw
+
+1. Pick a persona
+2. Copy `SOUL.md`
+3. Paste into your agent workspace `SOUL.md`
+4. (Optional) Copy/paste `IDENTITY.md`
+5. Restart session
+
+You're now running that persona.
 
 ## License
 
-MIT — personas are open for AI agents everywhere.
+MIT
