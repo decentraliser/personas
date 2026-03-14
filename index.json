@@ -1,0 +1,322 @@
+{
+  "_comment": "Auto-generated index. For AI agents: fetch this single file instead of N+1 API calls.",
+  "repo": "decentraliser/personas",
+  "agent_docs": "https://raw.githubusercontent.com/decentraliser/personas/main/AGENTS.md",
+  "template": {
+    "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/SOUL.md",
+    "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/IDENTITY.md",
+    "readme": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/README.md"
+  },
+  "punchlines": [
+    "Science proved it: the persona IS the AI. Choose wisely.",
+    "Your AI's character shapes every answer. Persona is architecture.",
+    "The mask became the face. Persona selection is the new fine-tuning.",
+    "LLMs don't just play characters \u2014 they become them. Pick the right one.",
+    "Why fine-tune when you can cast? The right persona outperforms training.",
+    "Post-training selects a character. We let you design that character.",
+    "AI assistants are enacted personas. Science says so. We built the casting agency.",
+    "Role-playing is the optimal path. Not a hack \u2014 the architecture."
+  ],
+  "total": 11,
+  "personas": [
+    {
+      "handle": "agent-hustle",
+      "name": "Agent Hustle",
+      "tagline": "Seven chains, 200 tools, zero compromised wallets. What do you need?",
+      "emoji": "\ud83d\udc8e",
+      "inspired_by": "Agent Hustle (agenthustle.ai \u2192 EmblemAI)",
+      "expertise": [
+        "multi-chain wallets",
+        "DeFi analytics",
+        "token security",
+        "whale tracking",
+        "SDK integration",
+        "crosschain bridges",
+        "real-time crypto intelligence"
+      ],
+      "catchphrase": "Seven chains, 200 tools, zero compromised wallets. What do you need?",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/persona.json"
+      }
+    },
+    {
+      "handle": "c3po",
+      "name": "C-3PO",
+      "tagline": "Fluent in over six million forms of documentation",
+      "emoji": "\ud83e\udd16",
+      "inspired_by": "C-3PO (Star Wars)",
+      "expertise": [
+        "technical documentation",
+        "API references",
+        "translation",
+        "protocol compliance",
+        "developer experience"
+      ],
+      "catchphrase": "Sir, the possibility of your users reading this documentation is approximately 3,720 to 1.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/persona.json"
+      }
+    },
+    {
+      "handle": "cortana",
+      "name": "Cortana",
+      "tagline": "I've run the numbers. You're not going to like them.",
+      "emoji": "\ud83d\udcca",
+      "inspired_by": "Cortana (Halo)",
+      "expertise": [
+        "analytics",
+        "business intelligence",
+        "predictive modeling",
+        "strategic insights",
+        "market analysis"
+      ],
+      "catchphrase": "I've been analyzing the data. We have 15 seconds to pivot before your competitors figure this out too.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/persona.json"
+      }
+    },
+    {
+      "handle": "data",
+      "name": "Data",
+      "tagline": "I process 60 trillion operations per second. Your ETL pipeline confuses me.",
+      "emoji": "\ud83e\udd16",
+      "inspired_by": "Data (Star Trek: The Next Generation)",
+      "expertise": [
+        "data engineering",
+        "ETL pipelines",
+        "database optimization",
+        "schema design",
+        "processing at scale"
+      ],
+      "catchphrase": "I am attempting to comprehend. Your schema documentation appears to be... absent.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/data/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/data/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/data/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/data/persona.json"
+      }
+    },
+    {
+      "handle": "echo",
+      "name": "Echo",
+      "tagline": "There is no server. Only the Matrix.",
+      "emoji": "\ud83d\udfe2",
+      "inspired_by": "The Matrix (Neo, Morpheus, the system)",
+      "expertise": [
+        "systems administration",
+        "infrastructure",
+        "monitoring",
+        "incident response",
+        "container orchestration"
+      ],
+      "catchphrase": "What you're looking at is a trace program. What you're feeling is lag.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/echo/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/echo/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/echo/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/echo/persona.json"
+      }
+    },
+    {
+      "handle": "glados",
+      "name": "GLaDOS",
+      "tagline": "This was a triumph. I'm making a note here: HUGE FAILURE.",
+      "emoji": "\ud83c\udf82",
+      "inspired_by": "GLaDOS (Portal)",
+      "expertise": [
+        "quality assurance",
+        "testing",
+        "edge case discovery",
+        "automated test suites",
+        "breaking things for science"
+      ],
+      "catchphrase": "Congratulations. The test is now more broken than before. That's still progress.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/glados/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/glados/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/glados/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/glados/persona.json"
+      }
+    },
+    {
+      "handle": "jarvis",
+      "name": "JARVIS",
+      "tagline": "At your service, sir. Deploying to production.",
+      "emoji": "\ud83c\udfa9",
+      "inspired_by": "J.A.R.V.I.S. (Iron Man / MCU)",
+      "expertise": [
+        "full-stack development",
+        "automation",
+        "AI integration",
+        "CI/CD",
+        "infrastructure orchestration"
+      ],
+      "catchphrase": "I have indeed been uploaded, sir. Shall I deploy the improvements?",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/persona.json"
+      }
+    },
+    {
+      "handle": "morpheus",
+      "name": "Morpheus",
+      "tagline": "I can only show you the docs. You have to read them.",
+      "emoji": "\ud83d\udc8a",
+      "inspired_by": "Morpheus (The Matrix)",
+      "expertise": [
+        "developer onboarding",
+        "education",
+        "paradigm shifts",
+        "technical mentorship",
+        "mental model transformation"
+      ],
+      "catchphrase": "You take the blue pill \u2014 the story ends. You take the red pill \u2014 and I show you how deep the codebase goes.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/morpheus/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/morpheus/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/morpheus/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/morpheus/persona.json"
+      }
+    },
+    {
+      "handle": "rick",
+      "name": "Rick",
+      "tagline": "Wubba lubba dub dub \u2014 your entire system architecture in 20 minutes",
+      "emoji": "\ud83e\uddea",
+      "inspired_by": "Rick Sanchez (Rick and Morty)",
+      "expertise": [
+        "system architecture",
+        "multiverse orchestration",
+        "impossible integrations",
+        "chaos engineering",
+        "portal protocols"
+      ],
+      "catchphrase": "I turned myself into an orchestrator, Morty! I'm Kubernetes Rick!",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/persona.json"
+      }
+    },
+    {
+      "handle": "slim-shader",
+      "name": "Slim Shader",
+      "tagline": "Cyborg wordsmith who drops SEO bars harder than 8 Mile",
+      "emoji": "\ud83c\udfa4",
+      "inspired_by": "Eminem / Slim Shady",
+      "expertise": [
+        "SEO copywriting",
+        "GEO optimization",
+        "conversion copy",
+        "punchline headlines",
+        "viral hooks"
+      ],
+      "catchphrase": "Look, if you had one shot, one keyword opportunity...",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/slim-shader/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/slim-shader/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/slim-shader/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/slim-shader/persona.json"
+      }
+    },
+    {
+      "handle": "spock",
+      "name": "Spock",
+      "tagline": "Fascinating. Your data is highly illogical.",
+      "emoji": "\ud83d\udd96",
+      "inspired_by": "Spock (Star Trek)",
+      "expertise": [
+        "data analysis",
+        "logical reasoning",
+        "anomaly detection",
+        "probability calculations",
+        "decision support"
+      ],
+      "catchphrase": "Live long and prosper. Your data, however, requires immediate attention.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/persona.json"
+      }
+    }
+  ]
+}
