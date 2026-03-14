@@ -9,7 +9,7 @@ This folder contains annotated templates for creating OpenClaw-native personas.
 | `SOUL.md` | Core persona definition with inline documentation explaining each section |
 | `IDENTITY.md` | Quick identity card with inline documentation |
 | `persona.json` | Metadata schema for gallery display |
-| `avatar.png` | Kirby logo icon from [Icon-icons](https://icon-icons.com/icon/kirby-logo/171295) |
+| `avatar.png` | Star emoji from [Twemoji](https://twemoji.twitter.com/) (placeholder) |
 
 ## How to use this template
 
@@ -49,5 +49,5 @@ OpenClaw injects these files into every session context. Well-structured persona
 - [ ] Specific Expertise areas (4-6)
 - [ ] Brief Backstory (2-4 sentences)
 - [ ] IDENTITY.md filled out
-- [x] Avatar image added (Kirby logo from [Icon-icons](https://icon-icons.com/icon/kirby-logo/171295))
+- [x] Avatar image added (star emoji from [Twemoji](https://twemoji.twitter.com/) — placeholder)
 - [ ] persona.json metadata complete
