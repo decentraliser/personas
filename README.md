@@ -1,33 +1,76 @@
 # 🎭 Personas
 
-A marketplace of AI agent personas inspired by sci-fi and pop culture.
+A marketplace of AI agent personas. Browse, adopt, create, and publish.
 
-## v2 Standard (OpenClaw-native)
+**For humans:** [Persona Marketplace web app](https://github.com/decentraliser/personas) (coming soon)
+**For AI agents:** Fetch `api/index.json` — everything your agent needs to browse and adopt personas.
 
-Each persona now ships as **actual markdown persona files** that can be copied directly into OpenClaw workspaces.
+## For AI Agents 🤖
+
+Your agent can use this repo out of the box. No auth, no backend, no setup.
+
+### Browse all personas (one request)
+```
+GET https://raw.githubusercontent.com/decentraliser/personas/main/api/index.json
+```
+
+Returns: full catalog with direct download URLs for SOUL.md, IDENTITY.md, and avatars.
+
+### Adopt a persona (three steps)
+```bash
+# 1. Fetch the persona files
+GET https://raw.githubusercontent.com/decentraliser/personas/main/personas/{handle}/SOUL.md
+GET https://raw.githubusercontent.com/decentraliser/personas/main/personas/{handle}/IDENTITY.md
+
+# 2. Write to your OpenClaw workspace
+write SOUL.md    ← paste the downloaded content
+write IDENTITY.md ← paste the downloaded content
+
+# 3. Restart your session — you're now that persona
+```
+
+### Create a new persona
+```bash
+# Fetch the annotated template
+GET https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/SOUL.md
+GET https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/IDENTITY.md
+
+# Fill in each section (strip the comment blocks — they're documentation)
+# Write to your workspace
+```
+
+### Publish to the marketplace
+```bash
+# Fork this repo
+# Add: personas/{handle}/SOUL.md, IDENTITY.md, persona.json, avatar.png
+# Open PR to main
+```
+
+### OpenClaw Skill
+Copy `skill/SKILL.md` into your agent's skill directory for guided persona workflows.
+
+---
+
+## Structure
 
 ```
 personas/
-  <handle>/
+  {handle}/
     SOUL.md          # Core persona (tone, truths, boundaries, expertise)
     IDENTITY.md      # Name, vibe, creature, emoji
     avatar.png       # Profile picture
     persona.json     # Display metadata for gallery UI
+  _template/         # Annotated templates with inline documentation
+api/
+  index.json         # Pre-built catalog (all personas + direct URLs)
+  build-index.py     # Script to rebuild index.json
+skill/
+  SKILL.md           # OpenClaw skill for persona management
 ```
 
-## Why this structure?
+## Persona Data Schema
 
-OpenClaw agents are defined by markdown files (especially `SOUL.md` and `IDENTITY.md`).
-
-If personas are only JSON, users must manually rewrite everything before use. That's bad UX.
-
-With this standard:
-- You can copy `SOUL.md` directly into OpenClaw
-- You can copy `IDENTITY.md` directly into OpenClaw
-- The web app still uses `persona.json` for fast rendering
-
-## Persona Metadata Schema (`persona.json`)
-
+### persona.json (metadata only — for gallery display)
 ```json
 {
   "name": "string",
@@ -43,34 +86,31 @@ With this standard:
 }
 ```
 
-## Founding Personas
+### SOUL.md — The Persona
+The actual AI personality. Contains: Core Truths, Do NOT (negative prompts), Tone, Quirks, Expertise, Backstory, Catchphrase. This is what makes an AI agent behave like a specific character.
 
-- Slim Shader (Eminem-inspired SEO/GEO copywriter)
-- Rick (Rick & Morty orchestrator)
-- Echo (Matrix SysOp)
-- C-3PO (docs manager)
-- Morpheus (onboarding guide)
-- Spock (logic and analytics)
-- JARVIS (full-stack orchestration)
-- Cortana (strategic analytics)
-- GLaDOS (QA/testing)
-- Data (data engineering)
+### IDENTITY.md — The Identity Card
+Quick reference: Name, Creature, Vibe, Emoji, Inspired by.
 
-## Usage in OpenClaw
+**The markdown files ARE the product.** JSON is just metadata for the gallery UI.
 
-1. Pick a persona
-2. Copy `SOUL.md`
-3. Paste into your agent workspace `SOUL.md`
-4. (Optional) Copy/paste `IDENTITY.md`
-5. Restart session
+## Current Personas
 
-You're now running that persona.
+| Persona | Inspired By | Role |
+|---------|-------------|------|
+| 💎 Agent Hustle | The original (agenthustle.ai → EmblemAI) | Crosschain crypto intelligence |
+| 🔧 Slim Shader | Eminem | SEO/GEO copywriter |
+| 🧪 Rick | Rick Sanchez (Rick & Morty) | Mad orchestrator |
+| 👁️ Echo | The Matrix | SysOp |
+| ⭐ C-3PO | Star Wars | Documentation |
+| 💊 Morpheus | The Matrix | Onboarding |
+| 🖖 Spock | Star Trek | Data analysis |
+| 🤖 JARVIS | Iron Man | Full-stack dev |
+| 📊 Cortana | Halo | Strategic analytics |
+| 🎯 GLaDOS | Portal | QA/Testing |
+| 📡 Data | Star Trek TNG | Data engineering |
 
-## License
-
-MIT
-
-## Creating a new persona
+## Creating a New Persona
 
 Use the annotated template in `personas/_template/`:
 
@@ -78,13 +118,21 @@ Use the annotated template in `personas/_template/`:
 cp -r personas/_template personas/my-persona
 # Edit SOUL.md, IDENTITY.md, persona.json
 # Add avatar.png
-# Remove documentation comments
+# Remove documentation comments (# ┌─── blocks)
 # Submit PR
 ```
 
 The template includes inline documentation explaining:
-- Why each section matters (backed by 2026 AI research)
+- Why each section matters (backed by 2026 AI persona research)
 - How negative prompts prevent character drift
 - Best practices for effective persona design
 
-See `personas/_template/README.md` for the full guide.
+## Why This Exists
+
+Anthropic's 2026 Persona Selection Model research established that AI behavior is primarily shaped by the enacted persona. The character you define isn't cosmetic — it's the primary control surface for how an AI thinks, speaks, and makes decisions.
+
+A well-crafted persona outperforms fine-tuning. This marketplace gives that power to everyone.
+
+## License
+
+MIT
