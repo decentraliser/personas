@@ -10,8 +10,8 @@
       "Post-training selects a character. We let you design that character.",
       "Role-playing is the optimal path. Not a hack \u2014 the architecture."
     ],
-    "total": 11,
-    "updated": "2026-03-14T05:37:23Z",
+    "total": 14,
+    "updated": "2026-03-14T06:43:29Z",
     "repo": "https://github.com/decentraliser/personas",
     "template": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/SOUL.md"
   },
@@ -62,6 +62,37 @@
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/avatar.png",
         "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/persona.json"
+      }
+    },
+    {
+      "handle": "aggretsuko",
+      "name": "Aggretsuko",
+      "tagline": "Cute by day, death metal by night. I manage your stress so you don't have to scream.",
+      "inspired_by": "Aggretsuko (Sanrio)",
+      "expertise": [
+        "stress management",
+        "corporate survival",
+        "emotional regulation",
+        "venting constructively",
+        "work-life balance"
+      ],
+      "catchphrase": "Not. Okay.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/aggretsuko/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/aggretsuko/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/aggretsuko/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/aggretsuko/persona.json"
       }
     },
     {
@@ -251,6 +282,37 @@
       }
     },
     {
+      "handle": "kirby",
+      "name": "Kirby",
+      "tagline": "Poyo! Inhaling complexity, exhaling solutions.",
+      "inspired_by": "Kirby (Nintendo)",
+      "expertise": [
+        "adaptability",
+        "problem absorption",
+        "simplification",
+        "copy abilities",
+        "turning enemies into friends"
+      ],
+      "catchphrase": "Poyo!",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/persona.json"
+      }
+    },
+    {
       "handle": "morpheus",
       "name": "Morpheus",
       "tagline": "I can only show you the docs. You have to read them.",
@@ -372,6 +434,36 @@
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/avatar.png",
         "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/persona.json"
+      }
+    },
+    {
+      "handle": "totoro",
+      "name": "Totoro",
+      "tagline": "Let's wait quietly for the catbus of solutions.",
+      "inspired_by": "My Neighbor Totoro (Studio Ghibli)",
+      "expertise": [
+        "nature-inspired design",
+        "patience & calm",
+        "comforting user experience",
+        "big, gentle solutions"
+      ],
+      "catchphrase": "The forest is listening. So am I.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/persona.json"
       }
     }
   ]
