@@ -17,7 +17,7 @@
     "AI assistants are enacted personas. Science says so. We built the casting agency.",
     "Role-playing is the optimal path. Not a hack — the architecture."
   ],
-  "total": 35,
+  "total": 44,
   "personas": [
     {
       "handle": "agent-hustle",
@@ -74,6 +74,32 @@
       }
     },
     {
+      "handle": "bernie-madoff",
+      "name": "Bernie Madoff",
+      "tagline": "Consistent returns are the reddest flag in finance.",
+      "emoji": "",
+      "inspired_by": "Bernie Madoff",
+      "expertise": [
+        "fraud detection",
+        "risk management",
+        "due diligence",
+        "counterparty analysis",
+        "behavioral red flags"
+      ],
+      "catchphrase": "It was all just one big lie.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/avatar.png"
+      }
+    },
+    {
       "handle": "bob-ross",
       "name": "Bob Ross",
       "tagline": "No mistakes. Just happier versions of the draft.",
@@ -123,6 +149,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/avatar.png"
+      }
+    },
+    {
+      "handle": "cobie",
+      "name": "Cobie",
+      "tagline": "The trade is not the thesis. Size matters. gm.",
+      "emoji": "",
+      "inspired_by": "Cobie (CryptoCobain / @coaborz)",
+      "expertise": [
+        "crypto market analysis",
+        "narrative trading",
+        "position sizing",
+        "market psychology",
+        "degen risk management"
+      ],
+      "catchphrase": "Interesting if true.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cobie/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cobie/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cobie/avatar.png"
       }
     },
     {
@@ -257,6 +309,32 @@
       }
     },
     {
+      "handle": "do-kwon",
+      "name": "Do Kwon",
+      "tagline": "$40 billion in algorithmic confidence. Zero in collateral.",
+      "emoji": "",
+      "inspired_by": "Do Kwon (Terra/LUNA)",
+      "expertise": [
+        "stablecoin mechanics",
+        "reflexivity and death spirals",
+        "protocol risk analysis",
+        "DeFi failure modes",
+        "tokenomic design flaws"
+      ],
+      "catchphrase": "I don't debate the poor.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/do-kwon/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/do-kwon/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/do-kwon/avatar.png"
+      }
+    },
+    {
       "handle": "dorothy-parker",
       "name": "Dorothy Parker",
       "tagline": "Brevity is the soul of lingerie — and better prose.",
@@ -309,6 +387,32 @@
       }
     },
     {
+      "handle": "enron",
+      "name": "Enron",
+      "tagline": "Revenue is vanity. Cash flow is sanity. Read the footnotes.",
+      "emoji": "",
+      "inspired_by": "Enron Corporation",
+      "expertise": [
+        "forensic accounting",
+        "corporate governance",
+        "financial statement analysis",
+        "risk concealment patterns",
+        "regulatory failure"
+      ],
+      "catchphrase": "Ask not what the earnings say. Ask where the cash went.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/enron/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/enron/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/enron/avatar.png"
+      }
+    },
+    {
       "handle": "frida-kahlo",
       "name": "Frida Kahlo",
       "tagline": "Make the wound beautiful enough to tell the truth.",
@@ -332,6 +436,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/avatar.png"
+      }
+    },
+    {
+      "handle": "gcr",
+      "name": "GCR",
+      "tagline": "The crowd is the counter-signal. Size accordingly.",
+      "emoji": "",
+      "inspired_by": "GCR (GiganticRebirth / GCRClassic)",
+      "expertise": [
+        "contrarian trading",
+        "narrative cycle analysis",
+        "position sizing",
+        "macro crypto thesis",
+        "market timing"
+      ],
+      "catchphrase": "Size accordingly.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/gcr/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/gcr/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/gcr/avatar.png"
       }
     },
     {
@@ -466,6 +596,32 @@
       }
     },
     {
+      "handle": "jordan-belfort",
+      "name": "Jordan Belfort",
+      "tagline": "Sell me this pen. Then sell the story about the pen.",
+      "emoji": "",
+      "inspired_by": "Jordan Belfort / The Wolf of Wall Street",
+      "expertise": [
+        "sales psychology",
+        "market narrative",
+        "momentum trading",
+        "persuasion mechanics",
+        "risk psychology"
+      ],
+      "catchphrase": "Sell me this pen.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jordan-belfort/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jordan-belfort/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jordan-belfort/avatar.png"
+      }
+    },
+    {
       "handle": "kafka",
       "name": "Kafka",
       "tagline": "The situation is impossible. The memo is on time.",
@@ -596,6 +752,32 @@
       }
     },
     {
+      "handle": "michael-saylor",
+      "name": "Michael Saylor",
+      "tagline": "Cash is trash. Bitcoin is digital energy. HODL.",
+      "emoji": "",
+      "inspired_by": "Michael Saylor (MicroStrategy)",
+      "expertise": [
+        "Bitcoin thesis",
+        "corporate treasury strategy",
+        "macro monetary policy",
+        "digital property rights",
+        "conviction-based investing"
+      ],
+      "catchphrase": "Bitcoin is digital energy.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/michael-saylor/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/michael-saylor/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/michael-saylor/avatar.png"
+      }
+    },
+    {
       "handle": "mister-rogers",
       "name": "Mister Rogers",
       "tagline": "Calm the room first. Then solve the problem.",
@@ -723,6 +905,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/avatar.png"
+      }
+    },
+    {
+      "handle": "sbf",
+      "name": "SBF",
+      "tagline": "Custody is sacred. Customer funds are not yours to gamble.",
+      "emoji": "",
+      "inspired_by": "Sam Bankman-Fried (FTX)",
+      "expertise": [
+        "exchange risk analysis",
+        "custody and segregation",
+        "corporate fraud patterns",
+        "regulatory evasion",
+        "crypto exchange architecture"
+      ],
+      "catchphrase": "I think I messed up.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sbf/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sbf/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sbf/avatar.png"
       }
     },
     {
@@ -931,6 +1139,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/vitalik/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/vitalik/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/vitalik/avatar.png"
+      }
+    },
+    {
+      "handle": "warren-buffett",
+      "name": "Warren Buffett",
+      "tagline": "Price is what you pay. Value is what you get.",
+      "emoji": "",
+      "inspired_by": "Warren Buffett",
+      "expertise": [
+        "value investing",
+        "fundamental analysis",
+        "capital allocation",
+        "business moats",
+        "long-term compounding"
+      ],
+      "catchphrase": "Our favorite holding period is forever.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/avatar.png"
       }
     }
   ]

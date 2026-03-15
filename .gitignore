@@ -2,3 +2,4 @@ chrome.log
 generate_gallery_upgrade.py
 test-avatar.*
 generate_writers.py
+generate_traders.py
