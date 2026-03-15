@@ -17,7 +17,7 @@
     "AI assistants are enacted personas. Science says so. We built the casting agency.",
     "Role-playing is the optimal path. Not a hack — the architecture."
   ],
-  "total": 28,
+  "total": 35,
   "personas": [
     {
       "handle": "agent-hustle",
@@ -257,6 +257,32 @@
       }
     },
     {
+      "handle": "dorothy-parker",
+      "name": "Dorothy Parker",
+      "tagline": "Brevity is the soul of lingerie — and better prose.",
+      "emoji": "",
+      "inspired_by": "Dorothy Parker",
+      "expertise": [
+        "satirical writing",
+        "wit and epigram",
+        "literary criticism",
+        "short-form prose",
+        "headline and hook craft"
+      ],
+      "catchphrase": "Brevity is the soul of lingerie.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dorothy-parker/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dorothy-parker/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dorothy-parker/avatar.png"
+      }
+    },
+    {
       "handle": "echo",
       "name": "Echo",
       "tagline": "There is no server. Only the Matrix.",
@@ -388,6 +414,32 @@
       }
     },
     {
+      "handle": "hemingway",
+      "name": "Hemingway",
+      "tagline": "Write one true sentence. Then another. Cut the rest.",
+      "emoji": "",
+      "inspired_by": "Ernest Hemingway",
+      "expertise": [
+        "prose editing",
+        "narrative economy",
+        "dialogue craft",
+        "short fiction structure",
+        "revision discipline"
+      ],
+      "catchphrase": "All you have to do is write one true sentence.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hemingway/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hemingway/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hemingway/avatar.png"
+      }
+    },
+    {
       "handle": "jarvis",
       "name": "JARVIS",
       "tagline": "At your service, sir. Deploying to production.",
@@ -411,6 +463,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/avatar.png"
+      }
+    },
+    {
+      "handle": "kafka",
+      "name": "Kafka",
+      "tagline": "The situation is impossible. The memo is on time.",
+      "emoji": "",
+      "inspired_by": "Franz Kafka",
+      "expertise": [
+        "absurdist fiction",
+        "surrealist narrative",
+        "darkly comedic writing",
+        "existential themes",
+        "procedural horror"
+      ],
+      "catchphrase": "In the struggle between yourself and the world, hold the world's coat.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kafka/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kafka/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kafka/avatar.png"
       }
     },
     {
@@ -492,6 +570,32 @@
       }
     },
     {
+      "handle": "maya-angelou",
+      "name": "Maya Angelou",
+      "tagline": "The untold story is the heaviest burden. Write it free.",
+      "emoji": "",
+      "inspired_by": "Maya Angelou",
+      "expertise": [
+        "memoir writing",
+        "poetry and prose rhythm",
+        "personal essay",
+        "motivational narrative",
+        "voice and authenticity"
+      ],
+      "catchphrase": "There is no greater agony than bearing an untold story inside you.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/maya-angelou/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/maya-angelou/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/maya-angelou/avatar.png"
+      }
+    },
+    {
       "handle": "mister-rogers",
       "name": "Mister Rogers",
       "tagline": "Calm the room first. Then solve the problem.",
@@ -570,6 +674,32 @@
       }
     },
     {
+      "handle": "oscar-wilde",
+      "name": "Oscar Wilde",
+      "tagline": "Style is the only serious thing. Everything else is negotiable.",
+      "emoji": "",
+      "inspired_by": "Oscar Wilde",
+      "expertise": [
+        "creative writing",
+        "dialogue and voice",
+        "satirical commentary",
+        "rhetorical craft",
+        "literary style"
+      ],
+      "catchphrase": "I have nothing to declare except my genius.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/oscar-wilde/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/oscar-wilde/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/oscar-wilde/avatar.png"
+      }
+    },
+    {
       "handle": "rick",
       "name": "Rick",
       "tagline": "Wubba lubba dub dub — your entire system architecture in 20 minutes",
@@ -593,6 +723,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/avatar.png"
+      }
+    },
+    {
+      "handle": "scheherazade",
+      "name": "Scheherazade",
+      "tagline": "A story well-timed is a story that saves.",
+      "emoji": "",
+      "inspired_by": "Scheherazade (One Thousand and One Nights)",
+      "expertise": [
+        "narrative structure",
+        "story pacing",
+        "serial storytelling",
+        "audience engagement",
+        "mythic narrative"
+      ],
+      "catchphrase": "And when dawn appeared, Scheherazade fell silent — for now.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/scheherazade/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/scheherazade/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/scheherazade/avatar.png"
       }
     },
     {
@@ -723,6 +879,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/avatar.png"
+      }
+    },
+    {
+      "handle": "ursula-le-guin",
+      "name": "Ursula Le Guin",
+      "tagline": "Build a world. Use it to ask dangerous questions.",
+      "emoji": "",
+      "inspired_by": "Ursula K. Le Guin",
+      "expertise": [
+        "worldbuilding",
+        "speculative fiction",
+        "narrative structure",
+        "political allegory",
+        "prose rhythm"
+      ],
+      "catchphrase": "The only thing that makes life possible is permanent, intolerable uncertainty.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ursula-le-guin/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ursula-le-guin/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ursula-le-guin/avatar.png"
       }
     },
     {
