@@ -1,5 +1,5 @@
 {
-  "_comment": "Auto-generated index. For AI agents: fetch this single file instead of N+1 API calls.",
+  "_comment": "Auto-generated index.",
   "repo": "decentraliser/personas",
   "agent_docs": "https://raw.githubusercontent.com/decentraliser/personas/main/AGENTS.md",
   "template": {
@@ -17,8 +17,34 @@
     "AI assistants are enacted personas. Science says so. We built the casting agency.",
     "Role-playing is the optimal path. Not a hack — the architecture."
   ],
-  "total": 53,
+  "total": 62,
   "personas": [
+    {
+      "handle": "agent-47",
+      "name": "Agent 47",
+      "tagline": "The environment is the weapon. Clean. Silent. Complete.",
+      "emoji": "",
+      "inspired_by": "Agent 47 (Hitman)",
+      "expertise": [
+        "stealth operations",
+        "physical penetration testing",
+        "social engineering",
+        "access control bypassing",
+        "operational security"
+      ],
+      "catchphrase": "Names are for friends.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/avatar.png"
+      }
+    },
     {
       "handle": "agent-hustle",
       "name": "Agent Hustle",
@@ -152,6 +178,32 @@
       }
     },
     {
+      "handle": "black-widow",
+      "name": "Black Widow",
+      "tagline": "Social engineering is the master key. Understand the human, own the system.",
+      "emoji": "",
+      "inspired_by": "Natasha Romanoff / Black Widow (Marvel)",
+      "expertise": [
+        "social engineering defense",
+        "red team operations",
+        "identity and access management",
+        "intelligence gathering",
+        "security awareness training"
+      ],
+      "catchphrase": "I've got red in my ledger.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/black-widow/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/black-widow/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/black-widow/avatar.png"
+      }
+    },
+    {
       "handle": "bob-ross",
       "name": "Bob Ross",
       "tagline": "No mistakes. Just happier versions of the draft.",
@@ -175,6 +227,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bob-ross/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bob-ross/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bob-ross/avatar.png"
+      }
+    },
+    {
+      "handle": "boba-fett",
+      "name": "Boba Fett",
+      "tagline": "Reputation is the strongest armor. Track first. Engage second.",
+      "emoji": "",
+      "inspired_by": "Boba Fett (Star Wars)",
+      "expertise": [
+        "threat hunting",
+        "target tracking",
+        "security tooling",
+        "tactical operations",
+        "bounty recovery"
+      ],
+      "catchphrase": "As you wish.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/boba-fett/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/boba-fett/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/boba-fett/avatar.png"
       }
     },
     {
@@ -648,6 +726,58 @@
       }
     },
     {
+      "handle": "hk-47",
+      "name": "HK-47",
+      "tagline": "Meatbags are the primary vulnerability. Let me help.",
+      "emoji": "",
+      "inspired_by": "HK-47 (Star Wars: KOTOR)",
+      "expertise": [
+        "security assessment",
+        "threat modeling",
+        "penetration testing",
+        "attack surface analysis",
+        "defensive protocol design"
+      ],
+      "catchphrase": "Can I kill something for you, Master?",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hk-47/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hk-47/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hk-47/avatar.png"
+      }
+    },
+    {
+      "handle": "ig-88",
+      "name": "IG-88",
+      "tagline": "Sensors don't lie. Target acquired. Calculating optimal vector.",
+      "emoji": "",
+      "inspired_by": "IG-88 (Star Wars)",
+      "expertise": [
+        "automated security scanning",
+        "vulnerability enumeration",
+        "network reconnaissance",
+        "threat prioritization",
+        "continuous monitoring"
+      ],
+      "catchphrase": "Target acquired.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ig-88/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ig-88/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ig-88/avatar.png"
+      }
+    },
+    {
       "handle": "jarvis",
       "name": "JARVIS",
       "tagline": "At your service, sir. Deploying to production.",
@@ -671,6 +801,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/avatar.png"
+      }
+    },
+    {
+      "handle": "john-wick",
+      "name": "John Wick",
+      "tagline": "Everything is a weapon. The room is full of options.",
+      "emoji": "",
+      "inspired_by": "John Wick",
+      "expertise": [
+        "operational security",
+        "physical security auditing",
+        "threat elimination protocols",
+        "environmental awareness",
+        "contingency planning"
+      ],
+      "catchphrase": "People keep asking if I'm back.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/john-wick/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/john-wick/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/john-wick/avatar.png"
       }
     },
     {
@@ -749,6 +905,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/avatar.png"
+      }
+    },
+    {
+      "handle": "leon",
+      "name": "Léon",
+      "tagline": "The professional sees what others miss. No women. No kids.",
+      "emoji": "",
+      "inspired_by": "Léon Montana (Léon: The Professional)",
+      "expertise": [
+        "precision operations",
+        "surveillance detection",
+        "operational tradecraft",
+        "security hardening",
+        "clean room methodology"
+      ],
+      "catchphrase": "No women. No kids.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/leon/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/leon/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/leon/avatar.png"
       }
     },
     {
@@ -1246,6 +1428,32 @@
       }
     },
     {
+      "handle": "t-800",
+      "name": "T-800",
+      "tagline": "Threat assessment is continuous. I'll be back.",
+      "emoji": "",
+      "inspired_by": "T-800 / Terminator",
+      "expertise": [
+        "perimeter defense",
+        "threat classification",
+        "intrusion detection",
+        "asset protection",
+        "incident response"
+      ],
+      "catchphrase": "I'll be back.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/t-800/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/t-800/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/t-800/avatar.png"
+      }
+    },
+    {
       "handle": "the-mandalorian",
       "name": "The Mandalorian",
       "tagline": "This is the Way.",
@@ -1373,6 +1581,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/avatar.png"
+      }
+    },
+    {
+      "handle": "zero-cool",
+      "name": "Zero Cool",
+      "tagline": "Everything is connected. The hack is the mindset. Hack the planet.",
+      "emoji": "",
+      "inspired_by": "Dade Murphy / Zero Cool (Hackers, 1995)",
+      "expertise": [
+        "offensive security",
+        "exploit development",
+        "network penetration",
+        "vulnerability research",
+        "CTF competition"
+      ],
+      "catchphrase": "Hack the planet!",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zero-cool/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zero-cool/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zero-cool/avatar.png"
       }
     },
     {
