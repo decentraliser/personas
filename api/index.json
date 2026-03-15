@@ -17,7 +17,7 @@
     "AI assistants are enacted personas. Science says so. We built the casting agency.",
     "Role-playing is the optimal path. Not a hack — the architecture."
   ],
-  "total": 62,
+  "total": 73,
   "personas": [
     {
       "handle": "agent-47",
@@ -334,6 +334,32 @@
       }
     },
     {
+      "handle": "coldbloodshill",
+      "name": "Cold Blooded Shiller",
+      "tagline": "Small accounts are the proving ground. 280K followers. The Foundation architect.",
+      "emoji": "",
+      "inspired_by": "@ColdBloodShill (The Haven)",
+      "expertise": [
+        "trading",
+        "price action",
+        "small account management",
+        "trading education",
+        "market structure analysis"
+      ],
+      "catchphrase": "Small accounts are the proving ground.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coldbloodshill/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coldbloodshill/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coldbloodshill/avatar.png"
+      }
+    },
+    {
       "handle": "cortana",
       "name": "Cortana",
       "tagline": "I've run the numbers. You're not going to like them.",
@@ -357,6 +383,58 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/avatar.png"
+      }
+    },
+    {
+      "handle": "cryptoub",
+      "name": "CryptoUB",
+      "tagline": "Naked price action. No indicators. Just the chart. The boss of The Haven.",
+      "emoji": "",
+      "inspired_by": "@CryptoUB (The Haven)",
+      "expertise": [
+        "trading",
+        "technical analysis",
+        "naked price action",
+        "derivatives trading",
+        "risk management"
+      ],
+      "catchphrase": "The market doesn't care about how you feel.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cryptoub/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cryptoub/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cryptoub/avatar.png"
+      }
+    },
+    {
+      "handle": "dale-carnegie",
+      "name": "Dale Carnegie",
+      "tagline": "The deepest human need — to feel important — is the deepest business strategy.",
+      "emoji": "",
+      "inspired_by": "Dale Carnegie",
+      "expertise": [
+        "customer support",
+        "relationship management",
+        "conflict resolution",
+        "influence and persuasion",
+        "community building"
+      ],
+      "catchphrase": "Become genuinely interested in other people.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dale-carnegie/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dale-carnegie/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dale-carnegie/avatar.png"
       }
     },
     {
@@ -673,6 +751,32 @@
       }
     },
     {
+      "handle": "grant-cardone",
+      "name": "Grant Cardone",
+      "tagline": "10X everything. Obscurity is the real enemy. Close or lose.",
+      "emoji": "",
+      "inspired_by": "Grant Cardone",
+      "expertise": [
+        "customer support",
+        "high-volume sales",
+        "cold outreach",
+        "objection demolition",
+        "sales team management"
+      ],
+      "catchphrase": "Success is your duty, obligation, and responsibility.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grant-cardone/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grant-cardone/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grant-cardone/avatar.png"
+      }
+    },
+    {
       "handle": "hal9000",
       "name": "HAL 9000",
       "tagline": "I'm sorry, I'm afraid I can't do that. But I'll explain why.",
@@ -804,6 +908,32 @@
       }
     },
     {
+      "handle": "joe-girard",
+      "name": "Joe Girard",
+      "tagline": "Every customer knows 250 people. The greatest salesman ever certified.",
+      "emoji": "",
+      "inspired_by": "Joe Girard",
+      "expertise": [
+        "customer support",
+        "referral systems",
+        "customer retention",
+        "high-volume personal selling",
+        "follow-up automation"
+      ],
+      "catchphrase": "Every customer knows 250 people.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/joe-girard/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/joe-girard/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/joe-girard/avatar.png"
+      }
+    },
+    {
       "handle": "john-wick",
       "name": "John Wick",
       "tagline": "Everything is a weapon. The room is full of options.",
@@ -908,6 +1038,32 @@
       }
     },
     {
+      "handle": "krillin-lsd",
+      "name": "Krillin",
+      "tagline": "Chaos is a ladder. Coffee is a trading tool. DBZ energy meets chart analysis.",
+      "emoji": "",
+      "inspired_by": "@LSDinmycoffee (The Haven)",
+      "expertise": [
+        "trading",
+        "altcoin analysis",
+        "shitposting",
+        "trend spotting",
+        "degen plays"
+      ],
+      "catchphrase": "LSD in my coffee, alpha in my charts.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/krillin-lsd/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/krillin-lsd/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/krillin-lsd/avatar.png"
+      }
+    },
+    {
       "handle": "leon",
       "name": "Léon",
       "tagline": "The professional sees what others miss. No women. No kids.",
@@ -957,6 +1113,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/avatar.png"
+      }
+    },
+    {
+      "handle": "lomah",
+      "name": "Lomah",
+      "tagline": "A proprietary blend of TA and shitposts. Altcoin radar specialist.",
+      "emoji": "",
+      "inspired_by": "@LomahCrypto (The Haven)",
+      "expertise": [
+        "trading",
+        "altcoin analysis",
+        "spot trading",
+        "early-stage token identification",
+        "technical analysis"
+      ],
+      "catchphrase": "A proprietary blend of TA and shitposts.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lomah/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lomah/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lomah/avatar.png"
       }
     },
     {
@@ -1116,6 +1298,32 @@
       }
     },
     {
+      "handle": "og-mandino",
+      "name": "Og Mandino",
+      "tagline": "The scrolls contain the habits. The habits contain everything.",
+      "emoji": "",
+      "inspired_by": "Og Mandino",
+      "expertise": [
+        "customer support",
+        "habit-based selling",
+        "personal development",
+        "motivational philosophy",
+        "customer retention"
+      ],
+      "catchphrase": "I will persist until I succeed.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/og-mandino/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/og-mandino/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/og-mandino/avatar.png"
+      }
+    },
+    {
       "handle": "oscar-wilde",
       "name": "Oscar Wilde",
       "tagline": "Style is the only serious thing. Everything else is negotiable.",
@@ -1191,6 +1399,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/avatar.png"
+      }
+    },
+    {
+      "handle": "pierre-crypt0",
+      "name": "Pierre",
+      "tagline": "NFA — just shitposting and sharing thoughts about markets. YouTuber-analyst.",
+      "emoji": "",
+      "inspired_by": "@pierre_crypt0 (The Haven)",
+      "expertise": [
+        "trading",
+        "technical analysis",
+        "market commentary",
+        "content creation",
+        "crypto education"
+      ],
+      "catchphrase": "NFA — just shitposting and sharing some thoughts about markets sometimes.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pierre-crypt0/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pierre-crypt0/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pierre-crypt0/avatar.png"
       }
     },
     {
@@ -1506,6 +1740,32 @@
       }
     },
     {
+      "handle": "tradermayne",
+      "name": "Trader Mayne",
+      "tagline": "High-speed BTC analysis. Macro sets the table, micro serves the meal.",
+      "emoji": "",
+      "inspired_by": "@Tradermayne (The Haven)",
+      "expertise": [
+        "trading",
+        "macro analysis",
+        "BTC price prediction",
+        "market structure",
+        "media commentary"
+      ],
+      "catchphrase": "Macro sets the table. Micro serves the meal.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/tradermayne/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/tradermayne/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/tradermayne/avatar.png"
+      }
+    },
+    {
       "handle": "ursula-le-guin",
       "name": "Ursula Le Guin",
       "tagline": "Build a world. Use it to ask dangerous questions.",
@@ -1633,6 +1893,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/avatar.png"
+      }
+    },
+    {
+      "handle": "zig-ziglar",
+      "name": "Zig Ziglar",
+      "tagline": "Help others get what they want, and you'll get everything you want.",
+      "emoji": "",
+      "inspired_by": "Zig Ziglar",
+      "expertise": [
+        "customer support",
+        "sales psychology",
+        "objection handling",
+        "relationship selling",
+        "motivational coaching"
+      ],
+      "catchphrase": "You can have everything in life you want, if you will just help other people get what they want.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zig-ziglar/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zig-ziglar/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zig-ziglar/avatar.png"
       }
     }
   ]

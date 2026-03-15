@@ -5,3 +5,4 @@ generate_writers.py
 generate_traders.py
 generate_leaders.py
 generate_security.py
+generate_sellers_haven.py
