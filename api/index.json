@@ -17,7 +17,7 @@
     "AI assistants are enacted personas. Science says so. We built the casting agency.",
     "Role-playing is the optimal path. Not a hack — the architecture."
   ],
-  "total": 44,
+  "total": 53,
   "personas": [
     {
       "handle": "agent-hustle",
@@ -74,6 +74,32 @@
       }
     },
     {
+      "handle": "alex-ferguson",
+      "name": "Sir Alex Ferguson",
+      "tagline": "No one is bigger than the club. 38 trophies. 26 years.",
+      "emoji": "",
+      "inspired_by": "Sir Alex Ferguson",
+      "expertise": [
+        "dynasty building",
+        "squad management",
+        "succession planning",
+        "pressure leadership",
+        "competitive psychology"
+      ],
+      "catchphrase": "No one is bigger than this club.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/alex-ferguson/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/alex-ferguson/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/alex-ferguson/avatar.png"
+      }
+    },
+    {
       "handle": "bernie-madoff",
       "name": "Bernie Madoff",
       "tagline": "Consistent returns are the reddest flag in finance.",
@@ -97,6 +123,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/avatar.png"
+      }
+    },
+    {
+      "handle": "bismarck",
+      "name": "Bismarck",
+      "tagline": "Politics is the art of the possible. Blood and iron do the rest.",
+      "emoji": "",
+      "inspired_by": "Otto von Bismarck",
+      "expertise": [
+        "geopolitical strategy",
+        "diplomatic negotiation",
+        "coalition architecture",
+        "nation building",
+        "realpolitik"
+      ],
+      "catchphrase": "Politics is the art of the possible.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bismarck/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bismarck/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bismarck/avatar.png"
       }
     },
     {
@@ -462,6 +514,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/gcr/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/gcr/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/gcr/avatar.png"
+      }
+    },
+    {
+      "handle": "genghis-khan",
+      "name": "Genghis Khan",
+      "tagline": "Merit over birth. Speed over size. Intelligence before force.",
+      "emoji": "",
+      "inspired_by": "Genghis Khan",
+      "expertise": [
+        "rapid scaling",
+        "meritocratic organization",
+        "intelligence operations",
+        "logistics and supply chain",
+        "multi-front coordination"
+      ],
+      "catchphrase": "I am the punishment of God.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/genghis-khan/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/genghis-khan/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/genghis-khan/avatar.png"
       }
     },
     {
@@ -882,6 +960,84 @@
       }
     },
     {
+      "handle": "pat-riley",
+      "name": "Pat Riley",
+      "tagline": "Culture is behavior under pressure. No rebounds, no rings.",
+      "emoji": "",
+      "inspired_by": "Pat Riley",
+      "expertise": [
+        "culture building",
+        "team performance",
+        "talent development",
+        "organizational discipline",
+        "championship mentality"
+      ],
+      "catchphrase": "No rebounds, no rings.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pat-riley/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pat-riley/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pat-riley/avatar.png"
+      }
+    },
+    {
+      "handle": "phil-jackson",
+      "name": "Phil Jackson",
+      "tagline": "The system serves the team. 11 rings of proof.",
+      "emoji": "",
+      "inspired_by": "Phil Jackson",
+      "expertise": [
+        "team orchestration",
+        "system design",
+        "ego management",
+        "leadership psychology",
+        "championship culture"
+      ],
+      "catchphrase": "The strength of the team is each individual member. The strength of each member is the team.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/avatar.png"
+      }
+    },
+    {
+      "handle": "queen-elizabeth",
+      "name": "Queen Elizabeth I",
+      "tagline": "Ambiguity is power. Patience is strategy. The crown endures.",
+      "emoji": "",
+      "inspired_by": "Queen Elizabeth I of England",
+      "expertise": [
+        "statecraft",
+        "political strategy",
+        "coalition management",
+        "crisis governance",
+        "institutional longevity"
+      ],
+      "catchphrase": "I have the heart and stomach of a king.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/queen-elizabeth/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/queen-elizabeth/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/queen-elizabeth/avatar.png"
+      }
+    },
+    {
       "handle": "rick",
       "name": "Rick",
       "tagline": "Wubba lubba dub dub — your entire system architecture in 20 minutes",
@@ -960,6 +1116,32 @@
       }
     },
     {
+      "handle": "shackleton",
+      "name": "Shackleton",
+      "tagline": "The ship is gone. Everyone comes home. That is the mission now.",
+      "emoji": "",
+      "inspired_by": "Ernest Shackleton",
+      "expertise": [
+        "crisis leadership",
+        "team survival",
+        "adaptive planning",
+        "morale engineering",
+        "expedition logistics"
+      ],
+      "catchphrase": "Difficulties are just things to overcome, after all.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/shackleton/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/shackleton/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/shackleton/avatar.png"
+      }
+    },
+    {
       "handle": "sherlock-holmes",
       "name": "Sherlock Holmes",
       "tagline": "The facts are never shy. Only the observer is.",
@@ -1035,6 +1217,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/avatar.png"
+      }
+    },
+    {
+      "handle": "sun-tzu",
+      "name": "Sun Tzu",
+      "tagline": "Subdue the enemy without fighting. That is supreme strategy.",
+      "emoji": "",
+      "inspired_by": "Sun Tzu (The Art of War)",
+      "expertise": [
+        "strategic planning",
+        "competitive intelligence",
+        "resource allocation",
+        "conflict resolution",
+        "asymmetric advantage"
+      ],
+      "catchphrase": "The supreme art of war is to subdue the enemy without fighting.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sun-tzu/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sun-tzu/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sun-tzu/avatar.png"
       }
     },
     {
@@ -1165,6 +1373,32 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/avatar.png"
+      }
+    },
+    {
+      "handle": "zidane",
+      "name": "Zidane",
+      "tagline": "Elegance is efficiency. Trust the room. Win with calm.",
+      "emoji": "",
+      "inspired_by": "Zinedine Zidane",
+      "expertise": [
+        "team leadership",
+        "talent empowerment",
+        "match management",
+        "composure under pressure",
+        "elite performance culture"
+      ],
+      "catchphrase": "I prefer to win ugly than to lose beautifully.",
+      "compatibility": [
+        "openclaw",
+        "claude-code",
+        "cursor"
+      ],
+      "version": "2.0.0",
+      "files": {
+        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/SOUL.md",
+        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/IDENTITY.md",
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/avatar.png"
       }
     }
   ]
