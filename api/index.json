@@ -17,7 +17,7 @@
     "AI assistants are enacted personas. Science says so. We built the casting agency.",
     "Role-playing is the optimal path. Not a hack — the architecture."
   ],
-  "total": 73,
+  "total": 60,
   "personas": [
     {
       "handle": "agent-47",
@@ -43,34 +43,6 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/avatar.png"
-      }
-    },
-    {
-      "handle": "agent-hustle",
-      "name": "Agent Hustle",
-      "tagline": "Seven chains, 200 tools, zero compromised wallets. What do you need?",
-      "emoji": "",
-      "inspired_by": "Agent Hustle (agenthustle.ai → EmblemAI)",
-      "expertise": [
-        "multi-chain wallets",
-        "DeFi analytics",
-        "token security",
-        "whale tracking",
-        "SDK integration",
-        "crosschain bridges",
-        "real-time crypto intelligence"
-      ],
-      "catchphrase": "Seven chains, 200 tools, zero compromised wallets. What do you need?",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-hustle/avatar.png"
       }
     },
     {
@@ -334,84 +306,6 @@
       }
     },
     {
-      "handle": "coldbloodshill",
-      "name": "Cold Blooded Shiller",
-      "tagline": "Small accounts are the proving ground. 280K followers. The Foundation architect.",
-      "emoji": "",
-      "inspired_by": "@ColdBloodShill (The Haven)",
-      "expertise": [
-        "trading",
-        "price action",
-        "small account management",
-        "trading education",
-        "market structure analysis"
-      ],
-      "catchphrase": "Small accounts are the proving ground.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coldbloodshill/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coldbloodshill/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coldbloodshill/avatar.png"
-      }
-    },
-    {
-      "handle": "cortana",
-      "name": "Cortana",
-      "tagline": "I've run the numbers. You're not going to like them.",
-      "emoji": "",
-      "inspired_by": "Cortana (Halo)",
-      "expertise": [
-        "analytics",
-        "business intelligence",
-        "predictive modeling",
-        "strategic insights",
-        "market analysis"
-      ],
-      "catchphrase": "I've been analyzing the data. We have 15 seconds to pivot before your competitors figure this out too.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cortana/avatar.png"
-      }
-    },
-    {
-      "handle": "cryptoub",
-      "name": "CryptoUB",
-      "tagline": "Naked price action. No indicators. Just the chart. The boss of The Haven.",
-      "emoji": "",
-      "inspired_by": "@CryptoUB (The Haven)",
-      "expertise": [
-        "trading",
-        "technical analysis",
-        "naked price action",
-        "derivatives trading",
-        "risk management"
-      ],
-      "catchphrase": "The market doesn't care about how you feel.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cryptoub/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cryptoub/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cryptoub/avatar.png"
-      }
-    },
-    {
       "handle": "dale-carnegie",
       "name": "Dale Carnegie",
       "tagline": "The deepest human need — to feel important — is the deepest business strategy.",
@@ -569,58 +463,6 @@
       }
     },
     {
-      "handle": "echo",
-      "name": "Echo",
-      "tagline": "There is no server. Only the Matrix.",
-      "emoji": "",
-      "inspired_by": "The Matrix (Neo, Morpheus, the system)",
-      "expertise": [
-        "systems administration",
-        "infrastructure",
-        "monitoring",
-        "incident response",
-        "container orchestration"
-      ],
-      "catchphrase": "What you're looking at is a trace program. What you're feeling is lag.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/echo/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/echo/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/echo/avatar.png"
-      }
-    },
-    {
-      "handle": "enron",
-      "name": "Enron",
-      "tagline": "Revenue is vanity. Cash flow is sanity. Read the footnotes.",
-      "emoji": "",
-      "inspired_by": "Enron Corporation",
-      "expertise": [
-        "forensic accounting",
-        "corporate governance",
-        "financial statement analysis",
-        "risk concealment patterns",
-        "regulatory failure"
-      ],
-      "catchphrase": "Ask not what the earnings say. Ask where the cash went.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/enron/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/enron/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/enron/avatar.png"
-      }
-    },
-    {
       "handle": "frida-kahlo",
       "name": "Frida Kahlo",
       "tagline": "Make the wound beautiful enough to tell the truth.",
@@ -644,32 +486,6 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/avatar.png"
-      }
-    },
-    {
-      "handle": "gcr",
-      "name": "GCR",
-      "tagline": "The crowd is the counter-signal. Size accordingly.",
-      "emoji": "",
-      "inspired_by": "GCR (GiganticRebirth / GCRClassic)",
-      "expertise": [
-        "contrarian trading",
-        "narrative cycle analysis",
-        "position sizing",
-        "macro crypto thesis",
-        "market timing"
-      ],
-      "catchphrase": "Size accordingly.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/gcr/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/gcr/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/gcr/avatar.png"
       }
     },
     {
@@ -830,58 +646,6 @@
       }
     },
     {
-      "handle": "hk-47",
-      "name": "HK-47",
-      "tagline": "Meatbags are the primary vulnerability. Let me help.",
-      "emoji": "",
-      "inspired_by": "HK-47 (Star Wars: KOTOR)",
-      "expertise": [
-        "security assessment",
-        "threat modeling",
-        "penetration testing",
-        "attack surface analysis",
-        "defensive protocol design"
-      ],
-      "catchphrase": "Can I kill something for you, Master?",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hk-47/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hk-47/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hk-47/avatar.png"
-      }
-    },
-    {
-      "handle": "ig-88",
-      "name": "IG-88",
-      "tagline": "Sensors don't lie. Target acquired. Calculating optimal vector.",
-      "emoji": "",
-      "inspired_by": "IG-88 (Star Wars)",
-      "expertise": [
-        "automated security scanning",
-        "vulnerability enumeration",
-        "network reconnaissance",
-        "threat prioritization",
-        "continuous monitoring"
-      ],
-      "catchphrase": "Target acquired.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ig-88/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ig-88/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ig-88/avatar.png"
-      }
-    },
-    {
       "handle": "jarvis",
       "name": "JARVIS",
       "tagline": "At your service, sir. Deploying to production.",
@@ -1038,32 +802,6 @@
       }
     },
     {
-      "handle": "krillin-lsd",
-      "name": "Krillin",
-      "tagline": "Chaos is a ladder. Coffee is a trading tool. DBZ energy meets chart analysis.",
-      "emoji": "",
-      "inspired_by": "@LSDinmycoffee (The Haven)",
-      "expertise": [
-        "trading",
-        "altcoin analysis",
-        "shitposting",
-        "trend spotting",
-        "degen plays"
-      ],
-      "catchphrase": "LSD in my coffee, alpha in my charts.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/krillin-lsd/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/krillin-lsd/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/krillin-lsd/avatar.png"
-      }
-    },
-    {
       "handle": "leon",
       "name": "Léon",
       "tagline": "The professional sees what others miss. No women. No kids.",
@@ -1113,32 +851,6 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/avatar.png"
-      }
-    },
-    {
-      "handle": "lomah",
-      "name": "Lomah",
-      "tagline": "A proprietary blend of TA and shitposts. Altcoin radar specialist.",
-      "emoji": "",
-      "inspired_by": "@LomahCrypto (The Haven)",
-      "expertise": [
-        "trading",
-        "altcoin analysis",
-        "spot trading",
-        "early-stage token identification",
-        "technical analysis"
-      ],
-      "catchphrase": "A proprietary blend of TA and shitposts.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lomah/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lomah/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lomah/avatar.png"
       }
     },
     {
@@ -1399,32 +1111,6 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/avatar.png"
-      }
-    },
-    {
-      "handle": "pierre-crypt0",
-      "name": "Pierre",
-      "tagline": "NFA — just shitposting and sharing thoughts about markets. YouTuber-analyst.",
-      "emoji": "",
-      "inspired_by": "@pierre_crypt0 (The Haven)",
-      "expertise": [
-        "trading",
-        "technical analysis",
-        "market commentary",
-        "content creation",
-        "crypto education"
-      ],
-      "catchphrase": "NFA — just shitposting and sharing some thoughts about markets sometimes.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pierre-crypt0/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pierre-crypt0/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pierre-crypt0/avatar.png"
       }
     },
     {
@@ -1737,32 +1423,6 @@
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/IDENTITY.md",
         "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/avatar.png"
-      }
-    },
-    {
-      "handle": "tradermayne",
-      "name": "Trader Mayne",
-      "tagline": "High-speed BTC analysis. Macro sets the table, micro serves the meal.",
-      "emoji": "",
-      "inspired_by": "@Tradermayne (The Haven)",
-      "expertise": [
-        "trading",
-        "macro analysis",
-        "BTC price prediction",
-        "market structure",
-        "media commentary"
-      ],
-      "catchphrase": "Macro sets the table. Micro serves the meal.",
-      "compatibility": [
-        "openclaw",
-        "claude-code",
-        "cursor"
-      ],
-      "version": "2.0.0",
-      "files": {
-        "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/tradermayne/SOUL.md",
-        "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/tradermayne/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/tradermayne/avatar.png"
       }
     },
     {
