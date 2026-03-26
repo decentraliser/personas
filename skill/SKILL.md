@@ -1,202 +1,214 @@
 ---
-name: personas
-description: Browse, adopt, create, and publish AI agent personas from the Persona Marketplace. Use when the user wants to change their agent's personality, find a new persona, create a custom persona, or publish one to the marketplace. Works out of the box with OpenClaw workspace files.
+name: persona-spawn
+description: Spawn subagents with personas from a local workspace library or the Emblem persona marketplace. Use when a task needs a different voice, expertise, or operating style; when the user says "use persona X", "spawn as Y", or "have a specific character do this"; when you need shared org context such as a foundation doc injected into every persona spawn; or when offloading a bounded task to a persona-preserving subagent is better than changing the current agent's own identity. Not for trivial tasks, changing your own persona in-place, or bypassing local subagent policy.
 ---
 
-# Persona Marketplace — Agent Skill
+# Persona Spawn
 
-Browse, adopt, create, and publish personas from `github.com/decentraliser/personas`.
+Use this skill to ensure the local persona library exists, assemble a deterministic persona prompt, and spawn a subagent without letting workspace persona files override the requested persona.
 
-## Quick Reference
+## Files
 
-| Action | How |
-|--------|-----|
-| Browse all personas | Fetch `api/index.json` from the repo |
-| Adopt a persona | Download SOUL.md + IDENTITY.md → write to workspace |
-| Create a new persona | Use the `_template/` as starting point |
-| Publish a persona | Fork repo → add persona dir → open PR |
-| Update a persona | Edit files in fork → open PR |
+Keep personas in the current workspace:
 
-## API Endpoint
-
+```text
+<workspace>/personas/
+├── config.json
+├── index.json
+├── the-mandalorian/
+│   ├── SOUL.md
+│   ├── IDENTITY.md
+│   └── persona.json
+└── <custom-persona>/
+    ├── SOUL.md
+    ├── IDENTITY.md
+    └── persona.json
 ```
-https://raw.githubusercontent.com/decentraliser/personas/main/api/index.json
+
+`personas/config.json` is the shared org-context config. Put docs there that every persona spawn should inherit, such as Kru foundation rules, brand standards, or execution rules.
+
+Read `references/api-endpoints.md` only when importing or validating marketplace data.
+Read `references/soul-guide.md` only when authoring a new custom persona.
+
+## First use
+
+Before resolving personas, ensure the local library exists:
+
+```bash
+python3 <skill_dir>/scripts/ensure-personas.py <workspace> <skill_dir>
 ```
 
-Returns: full catalog with direct download URLs for every persona file.
+If the workspace has no local persona library yet, this bootstraps bundled starter personas and creates `personas/config.json`.
 
-## Workflow: Browse & Adopt a Persona
+## Shared org context config
 
-When the user wants to change personality, find a persona, or "be more like X":
+Create or edit:
 
-1. **Fetch the catalog:**
-   ```
-   GET https://raw.githubusercontent.com/decentraliser/personas/main/api/index.json
-   ```
-
-2. **Present options** — show name, tagline, expertise, and catchphrase from the personas array.
-
-3. **When user picks one**, fetch the actual files:
-   ```
-   GET {persona.urls.soul}     → raw SOUL.md content
-   GET {persona.urls.identity} → raw IDENTITY.md content
-   ```
-
-4. **Write to workspace:**
-   - Write SOUL.md content to `./SOUL.md` (the workspace SOUL.md)
-   - Write IDENTITY.md content to `./IDENTITY.md` (the workspace IDENTITY.md)
-
-5. **Inform the user** they need to start a new session for the persona to take effect. The current session will continue with the old persona until restart.
-
-### Important Notes
-- **Back up first:** Before overwriting, check if the user wants to save their current SOUL.md/IDENTITY.md.
-- **Partial adoption:** User might only want SOUL.md (personality) without changing IDENTITY.md (name/emoji). Ask.
-- **The files ARE the persona.** No conversion needed. Copy raw markdown directly.
-
-## Workflow: Create a New Persona
-
-When the user wants to create a persona for themselves or a new agent:
-
-1. **Fetch the template:**
-   ```
-   GET https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/SOUL.md
-   GET https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/IDENTITY.md
-   ```
-
-2. **Strip the comment blocks** (lines starting with `# ┌` through `# └`) — those are documentation for humans reading the raw template. Use them as guidance for what to write in each section.
-
-3. **Fill in the template** based on the user's description. Key sections:
-   - **Core Truths**: 3-5 opinionated, specific behavioral anchors
-   - **Do NOT**: 3-5 negative constraints (CRITICAL — prevents character drift)
-   - **Tone**: How the persona communicates (use analogies, be specific)
-   - **Quirks**: 3-5 small behavioral habits
-   - **Expertise**: 4-6 specific skill areas
-   - **Backstory**: 2-4 sentences of origin context
-   - **Catchphrase**: Optional signature line
-
-4. **Write to workspace** or present for review first.
-
-### Persona Quality Checklist
-- [ ] Core Truths are opinionated and specific (not generic like "be helpful")
-- [ ] Do NOT section has at least 3 constraints specific to this role
-- [ ] Tone description uses analogies and distinguishes from generic assistant
-- [ ] Expertise is specific ("Kubernetes orchestration" not just "DevOps")
-- [ ] Backstory motivates the Core Truths
-- [ ] IDENTITY.md has name, creature, vibe, emoji
-
-## Workflow: Fork & Customize a Persona
-
-1. **Adopt first** — install the persona exactly as documented above by copying `SOUL.md` and `IDENTITY.md` into your workspace.
-2. **Back up the original** before editing so you can restore the shipped version if the fork drifts.
-3. **Customize locally** by editing your workspace `SOUL.md` (and `IDENTITY.md` only if you want a new name, vibe, or emoji).
-4. **Test in a fresh session** to confirm the fork behaves the way you want.
-5. **Optionally publish the fork** by creating `personas/{handle}/` in your fork, adding metadata + avatar, and opening a PR back to `decentraliser/personas`.
-
-## Channel Deployment Examples
-
-- **User:** "Spawn deadpool in this channel" → **System:** fetch Deadpool `SOUL.md` + `IDENTITY.md`, write both to workspace, and restart the session so the conversation continues as Deadpool.
-- **User:** "Have sherlock-holmes review this PR" → **System:** fetch Sherlock Holmes persona files, write them to a task workspace, and restart that review session under Sherlock's persona before analyzing the PR.
-- **User:** "Switch to coco-chanel for the design review" → **System:** fetch Coco Chanel `SOUL.md` + `IDENTITY.md`, write them to workspace, and restart into a temporary design-review session with that persona active.
-
-## Workflow: Publish a Persona to the Marketplace
-
-When the user wants to share a persona with the community:
-
-1. **Prepare the persona directory:**
-   ```
-   personas/{handle}/
-     SOUL.md         — the persona (from workspace or freshly written)
-     IDENTITY.md     — identity card
-     persona.json    — display metadata for the gallery
-     avatar.png      — profile image (~400x400px)
-   ```
-
-2. **Create persona.json** (metadata only):
-   ```json
-   {
-     "name": "Display Name",
-     "handle": "lowercase-handle",
-     "tagline": "One-line hook for the gallery",
-     "avatar": "avatar.png",
-     "inspired_by": "Source character or 'Original'",
-     "expertise": ["area1", "area2", "area3"],
-     "catchphrase": "Signature line from SOUL.md",
-     "compatibility": ["openclaw"],
-     "version": "2.0.0",
-     "files": ["SOUL.md", "IDENTITY.md"]
-    }
-    ```
-
-Optional metadata: add `display` for Claw OS card styling, plus the provenance fields below when the persona is a local fork.
-
-3. **Submit via GitHub:**
-   - Fork `decentraliser/personas`
-   - Add the persona directory to `personas/`
-   - Open PR to `main` branch
-   - Include a short description of the persona in the PR body
-
-4. **If the agent has GitHub access** (token/SSH), it can do this programmatically:
-   - Fork via GitHub API
-   - Create branch, commit files, open PR
-   - All via `https://api.github.com`
-
-## Workflow: Update an Existing Persona
-
-1. Edit files locally or fetch current versions from the repo
-2. Make changes to SOUL.md, IDENTITY.md, or persona.json
-3. Bump `version` in persona.json
-4. Submit PR with changes
-
-## Provenance Metadata
-
-Use optional provenance fields in `persona.json` when a local persona is forked from an upstream one.
-- `upstream.repo`, `upstream.handle`, `upstream.version` identify the source persona.
-- `forkedAt` stores when the fork was created in ISO 8601 format.
-- `localEdits` is a short changelog of the fork's intentional deviations.
-
-## Data Schema
-
-### api/index.json structure
 ```json
 {
-  "schema": "personas.index.v1",
-  "meta": {
-    "punchlines": ["..."],
-    "total": 11,
-    "updated": "2026-03-14T...",
-    "repo": "https://github.com/decentraliser/personas",
-    "template": "https://raw.githubusercontent.com/.../personas/_template/SOUL.md"
-  },
-  "agent_quickstart": {
-    "description": "...",
-    "steps": ["..."],
-    "to_publish": ["..."]
-  },
-  "personas": [
-    {
-      "handle": "echo",
-      "name": "Echo",
-      "tagline": "...",
-      "inspired_by": "...",
-      "expertise": ["..."],
-      "catchphrase": "...",
-      "compatibility": ["openclaw", "claude-code", "cursor"],
-      "version": "2.0.0",
-      "files": ["SOUL.md", "IDENTITY.md", "avatar.png"],
-      "urls": {
-        "soul": "https://raw.githubusercontent.com/.../SOUL.md",
-        "identity": "https://raw.githubusercontent.com/.../IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/.../avatar.png",
-        "metadata": "https://raw.githubusercontent.com/.../persona.json"
-      }
-    }
+  "context_files": [
+    "../_System/Motoko-Kru-Foundation.md",
+    "../Resources/Coding-Subagent-Contract.md"
   ]
 }
 ```
 
-## Compatibility
+Rules:
+- Accept `context_files` as either an array or a comma-separated string.
+- Resolve relative paths from `personas/config.json`.
+- Use shared context for durable org rules, not persona-specific flavor.
 
-- **OpenClaw**: Full support — SOUL.md + IDENTITY.md copy directly into workspace
-- **Claude Code**: Copy SOUL.md content into system prompt / CLAUDE.md
-- **Cursor**: Copy SOUL.md content into .cursorrules
-- **Any agent framework**: SOUL.md is standard markdown — works anywhere that accepts a system prompt
+## Workflow
+
+### 1. Respect local policy first
+
+Before spawning, follow the current workspace policy.
+If local `AGENTS.md` or system rules require asking before spawning subagents, ask first.
+Do not use this skill to bypass local governance.
+
+### 2. Ensure local personas exist
+
+Run:
+
+```bash
+python3 <skill_dir>/scripts/ensure-personas.py <workspace> <skill_dir>
+```
+
+Then read `<workspace>/personas/index.json`.
+
+### 3. Resolve the persona
+
+Read:
+- `<workspace>/personas/<handle>/SOUL.md`
+- `<workspace>/personas/<handle>/IDENTITY.md`
+- `<workspace>/personas/<handle>/persona.json`
+
+If the persona is not installed locally, import it first with the bundled importer.
+
+### 4. Build the persona prompt deterministically
+
+Use the bundled builder:
+
+```bash
+python3 <skill_dir>/scripts/build-persona-prompt.py \
+  <workspace> \
+  <handle> \
+  --task-file <task.txt>
+```
+
+This assembles the prompt in this order:
+1. Override directive
+2. Org context files from `personas/config.json`
+3. Persona SOUL.md
+4. Persona IDENTITY.md
+5. Task
+
+The override directive tells the spawned agent to ignore conflicting workspace-injected `SOUL.md` / `IDENTITY.md` for persona and tone, while still obeying higher-priority system, developer, safety, and governance instructions.
+
+### 5. Spawn the subagent
+
+Use the normal OpenClaw subagent path with the assembled prompt.
+Preferred shape:
+
+```json
+{
+  "task": "<assembled prompt>",
+  "runtime": "subagent",
+  "mode": "run",
+  "label": "persona:<handle>",
+  "runTimeoutSeconds": 300,
+  "cleanup": "delete"
+}
+```
+
+Model guidance:
+- Use the caller's default model unless the user requests another one.
+- Use a fast model for writing, brainstorming, or stylistic tasks.
+- Use a stronger model for analysis, security review, or planning.
+
+### 6. Return the result
+
+The subagent reports back automatically.
+- If the user asked for the persona's voice, preserve it.
+- Otherwise summarize in your own voice and mention which persona was used.
+
+## Import personas
+
+### Import one
+
+```bash
+bash <skill_dir>/scripts/import-persona.sh <handle> <workspace>/personas
+```
+
+### Import all
+
+```bash
+bash <skill_dir>/scripts/import-persona.sh --all <workspace>/personas
+```
+
+### Batch without rebuilding every time
+
+```bash
+bash <skill_dir>/scripts/import-persona.sh --no-index <handle> <workspace>/personas
+python3 <skill_dir>/scripts/rebuild-index.py <workspace>/personas
+```
+
+## Rebuild the local index manually
+
+After adding, removing, or editing personas:
+
+```bash
+python3 <skill_dir>/scripts/rebuild-index.py <workspace>/personas
+```
+
+## Channel Mode (live chat / room deployment)
+
+When deploying a persona into a live channel (CW room, Discord, Telegram group), use `--channel`:
+
+```bash
+python3 <skill_dir>/scripts/build-persona-prompt.py \
+  <workspace> \
+  <handle> \
+  --channel \
+  --task "You are in a chatroom. Respond to the conversation batch below."
+```
+
+This adds `channel_context_files` from `personas/config.json` between org context and persona soul:
+
+```json
+{
+  "context_files": ["../governance.md"],
+  "channel_context_files": ["./channel-guardrails.md"]
+}
+```
+
+Channel context files carry social behavior rules, safety guardrails, anti-spam norms, and liveliness guidance that apply to **all** personas in live channels — not persona-specific flavor.
+
+The output expectations also change: instead of "complete the task fully", channel mode instructs the agent to behave as a natural chat participant.
+
+## Fork & Customize
+
+1. **Import first** — install the persona with the import script above.
+2. **Back up the original** before editing so you can restore the shipped version if the fork drifts.
+3. **Customize locally** by editing `<workspace>/personas/<handle>/SOUL.md` (and `IDENTITY.md` only if you want a new name, vibe, or emoji).
+4. **Test in a fresh session** to confirm the fork behaves the way you want.
+5. **Optionally publish the fork** by creating `personas/<handle>/` in your fork of `decentraliser/personas` and opening a PR.
+
+## Provenance Metadata
+
+Use optional provenance fields in `persona.json` when a local persona is forked from an upstream one:
+- `upstream.repo`, `upstream.handle`, `upstream.version` identify the source persona.
+- `forkedAt` stores when the fork was created (ISO 8601).
+- `localEdits` is a short changelog of the fork's intentional deviations.
+
+These fields are optional — existing personas don't need them.
+
+## Guardrails
+
+- Do not change your own persona in-place. Spawn another agent instead.
+- Do not spawn for trivial one-liners.
+- Do not mix multiple personas in one subagent.
+- Do not add tone instructions that conflict with the persona.
+- Prefer local personas after import.
+- Prefer `context_files` for shared org doctrine and execution standards.
+- If import fails, report the failure cleanly and suggest nearby installed personas when possible.
