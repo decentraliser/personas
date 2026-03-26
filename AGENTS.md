@@ -16,6 +16,18 @@ Filter: skip any directory starting with `_` (like `_template`).
 
 ---
 
+## Discovery
+
+Use `scripts/list-personas.sh` to browse the remote catalog without cloning metadata by hand.
+
+```bash
+scripts/list-personas.sh
+scripts/list-personas.sh --tag design
+scripts/list-personas.sh --search sherlock
+```
+
+---
+
 ## 1. Browse Personas
 
 ```bash
