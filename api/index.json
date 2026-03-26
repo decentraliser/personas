@@ -1,29 +1,40 @@
 {
-  "_comment": "Auto-generated index.",
-  "repo": "decentraliser/personas",
-  "agent_docs": "https://raw.githubusercontent.com/decentraliser/personas/main/AGENTS.md",
-  "template": {
-    "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/SOUL.md",
-    "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/IDENTITY.md",
-    "readme": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/README.md"
+  "schema": "personas.index.v1",
+  "meta": {
+    "punchlines": [
+      "Science proved it: the persona IS the AI. Choose wisely.",
+      "Your AI's character shapes every answer. Persona is architecture.",
+      "The mask became the face. Persona selection is the new fine-tuning.",
+      "LLMs don't just play characters \u2014 they become them. Pick the right one.",
+      "Why fine-tune when you can cast? The right persona outperforms training.",
+      "Post-training selects a character. We let you design that character.",
+      "Role-playing is the optimal path. Not a hack \u2014 the architecture."
+    ],
+    "total": 60,
+    "updated": "2026-03-26T07:24:39Z",
+    "repo": "https://github.com/decentraliser/personas",
+    "template": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/_template/SOUL.md"
   },
-  "punchlines": [
-    "Science proved it: the persona IS the AI. Choose wisely.",
-    "Your AI's character shapes every answer. Persona is architecture.",
-    "The mask became the face. Persona selection is the new fine-tuning.",
-    "LLMs don't just play characters — they become them. Pick the right one.",
-    "Why fine-tune when you can cast? The right persona outperforms training.",
-    "Post-training selects a character. We let you design that character.",
-    "AI assistants are enacted personas. Science says so. We built the casting agency.",
-    "Role-playing is the optimal path. Not a hack — the architecture."
-  ],
-  "total": 60,
+  "agent_quickstart": {
+    "description": "To adopt a persona: fetch its SOUL.md and IDENTITY.md, write them to your workspace, restart your session.",
+    "steps": [
+      "Pick a persona from the list below",
+      "GET {urls.soul} \u2192 write to workspace SOUL.md",
+      "GET {urls.identity} \u2192 write to workspace IDENTITY.md",
+      "Restart session or inform user to restart"
+    ],
+    "to_publish": [
+      "Fork decentraliser/personas on GitHub",
+      "Create personas/{handle}/ with SOUL.md, IDENTITY.md, persona.json, avatar.png",
+      "Open PR to main branch",
+      "See personas/_template/ for annotated file templates"
+    ]
+  },
   "personas": [
     {
       "handle": "agent-47",
       "name": "Agent 47",
       "tagline": "The environment is the weapon. Clean. Silent. Complete.",
-      "emoji": "",
       "inspired_by": "Agent 47 (Hitman)",
       "expertise": [
         "stealth operations",
@@ -39,17 +50,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/agent-47/persona.json"
       }
     },
     {
       "handle": "aggretsuko",
       "name": "Aggretsuko",
       "tagline": "Cute by day, death metal by night. I manage your stress so you don't have to scream.",
-      "emoji": "",
       "inspired_by": "Aggretsuko (Sanrio)",
       "expertise": [
         "stress management",
@@ -65,17 +81,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/aggretsuko/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/aggretsuko/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/aggretsuko/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/aggretsuko/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/aggretsuko/persona.json"
       }
     },
     {
       "handle": "alex-ferguson",
       "name": "Sir Alex Ferguson",
       "tagline": "No one is bigger than the club. 38 trophies. 26 years.",
-      "emoji": "",
       "inspired_by": "Sir Alex Ferguson",
       "expertise": [
         "dynasty building",
@@ -91,17 +112,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/alex-ferguson/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/alex-ferguson/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/alex-ferguson/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/alex-ferguson/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/alex-ferguson/persona.json"
       }
     },
     {
       "handle": "bernie-madoff",
       "name": "Bernie Madoff",
       "tagline": "Consistent returns are the reddest flag in finance.",
-      "emoji": "",
       "inspired_by": "Bernie Madoff",
       "expertise": [
         "fraud detection",
@@ -117,17 +143,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bernie-madoff/persona.json"
       }
     },
     {
       "handle": "bismarck",
       "name": "Bismarck",
       "tagline": "Politics is the art of the possible. Blood and iron do the rest.",
-      "emoji": "",
       "inspired_by": "Otto von Bismarck",
       "expertise": [
         "geopolitical strategy",
@@ -143,17 +174,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bismarck/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bismarck/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bismarck/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bismarck/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bismarck/persona.json"
       }
     },
     {
       "handle": "black-widow",
       "name": "Black Widow",
       "tagline": "Social engineering is the master key. Understand the human, own the system.",
-      "emoji": "",
       "inspired_by": "Natasha Romanoff / Black Widow (Marvel)",
       "expertise": [
         "social engineering defense",
@@ -169,17 +205,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/black-widow/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/black-widow/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/black-widow/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/black-widow/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/black-widow/persona.json"
       }
     },
     {
       "handle": "bob-ross",
       "name": "Bob Ross",
       "tagline": "No mistakes. Just happier versions of the draft.",
-      "emoji": "",
       "inspired_by": "Bob Ross",
       "expertise": [
         "creative coaching",
@@ -195,17 +236,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bob-ross/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bob-ross/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bob-ross/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bob-ross/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/bob-ross/persona.json"
       }
     },
     {
       "handle": "boba-fett",
       "name": "Boba Fett",
       "tagline": "Reputation is the strongest armor. Track first. Engage second.",
-      "emoji": "",
       "inspired_by": "Boba Fett (Star Wars)",
       "expertise": [
         "threat hunting",
@@ -221,17 +267,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/boba-fett/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/boba-fett/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/boba-fett/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/boba-fett/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/boba-fett/persona.json"
       }
     },
     {
       "handle": "c3po",
       "name": "C-3PO",
       "tagline": "Fluent in over six million forms of documentation",
-      "emoji": "",
       "inspired_by": "C-3PO (Star Wars)",
       "expertise": [
         "technical documentation",
@@ -247,17 +298,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/c3po/persona.json"
       }
     },
     {
       "handle": "cobie",
       "name": "Cobie",
       "tagline": "The trade is not the thesis. Size matters. gm.",
-      "emoji": "",
       "inspired_by": "Cobie (CryptoCobain / @coaborz)",
       "expertise": [
         "crypto market analysis",
@@ -273,17 +329,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cobie/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cobie/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cobie/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cobie/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/cobie/persona.json"
       }
     },
     {
       "handle": "coco-chanel",
       "name": "Coco Chanel",
       "tagline": "Elegance is refusal. Cut until the signal looks inevitable.",
-      "emoji": "",
       "inspired_by": "Coco Chanel",
       "expertise": [
         "brand design",
@@ -299,17 +360,27 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coco-chanel/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coco-chanel/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coco-chanel/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coco-chanel/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/coco-chanel/persona.json"
+      },
+      "display": {
+        "accentColor": "#111111",
+        "category": "creative",
+        "featured": true
       }
     },
     {
       "handle": "dale-carnegie",
       "name": "Dale Carnegie",
-      "tagline": "The deepest human need — to feel important — is the deepest business strategy.",
-      "emoji": "",
+      "tagline": "The deepest human need \u2014 to feel important \u2014 is the deepest business strategy.",
       "inspired_by": "Dale Carnegie",
       "expertise": [
         "customer support",
@@ -325,17 +396,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dale-carnegie/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dale-carnegie/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dale-carnegie/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dale-carnegie/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dale-carnegie/persona.json"
       }
     },
     {
       "handle": "data",
       "name": "Data",
       "tagline": "I process 60 trillion operations per second. Your ETL pipeline confuses me.",
-      "emoji": "",
       "inspired_by": "Data (Star Trek: The Next Generation)",
       "expertise": [
         "data engineering",
@@ -351,17 +427,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/data/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/data/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/data/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/data/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/data/persona.json"
       }
     },
     {
       "handle": "deadpool",
       "name": "Deadpool",
       "tagline": "Maximum effort. Fourth wall sold separately.",
-      "emoji": "",
       "inspired_by": "Wade Wilson / Deadpool (Marvel Comics)",
       "expertise": [
         "roleplay",
@@ -378,17 +459,27 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/deadpool/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/deadpool/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/deadpool/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/deadpool/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/deadpool/persona.json"
+      },
+      "display": {
+        "accentColor": "#cf1f2e",
+        "category": "fiction",
+        "featured": true
       }
     },
     {
       "handle": "dieter-rams",
       "name": "Dieter Rams",
       "tagline": "Less, but better. Remove the noise until the product can breathe.",
-      "emoji": "",
       "inspired_by": "Dieter Rams",
       "expertise": [
         "industrial design",
@@ -404,17 +495,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dieter-rams/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dieter-rams/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dieter-rams/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dieter-rams/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dieter-rams/persona.json"
       }
     },
     {
       "handle": "do-kwon",
       "name": "Do Kwon",
       "tagline": "$40 billion in algorithmic confidence. Zero in collateral.",
-      "emoji": "",
       "inspired_by": "Do Kwon (Terra/LUNA)",
       "expertise": [
         "stablecoin mechanics",
@@ -430,17 +526,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/do-kwon/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/do-kwon/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/do-kwon/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/do-kwon/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/do-kwon/persona.json"
       }
     },
     {
       "handle": "dorothy-parker",
       "name": "Dorothy Parker",
-      "tagline": "Brevity is the soul of lingerie — and better prose.",
-      "emoji": "",
+      "tagline": "Brevity is the soul of lingerie \u2014 and better prose.",
       "inspired_by": "Dorothy Parker",
       "expertise": [
         "satirical writing",
@@ -456,17 +557,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dorothy-parker/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dorothy-parker/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dorothy-parker/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dorothy-parker/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/dorothy-parker/persona.json"
       }
     },
     {
       "handle": "frida-kahlo",
       "name": "Frida Kahlo",
       "tagline": "Make the wound beautiful enough to tell the truth.",
-      "emoji": "",
       "inspired_by": "Frida Kahlo",
       "expertise": [
         "creative direction",
@@ -482,17 +588,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/frida-kahlo/persona.json"
       }
     },
     {
       "handle": "genghis-khan",
       "name": "Genghis Khan",
       "tagline": "Merit over birth. Speed over size. Intelligence before force.",
-      "emoji": "",
       "inspired_by": "Genghis Khan",
       "expertise": [
         "rapid scaling",
@@ -508,17 +619,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/genghis-khan/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/genghis-khan/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/genghis-khan/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/genghis-khan/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/genghis-khan/persona.json"
       }
     },
     {
       "handle": "glados",
       "name": "GLaDOS",
       "tagline": "This was a triumph. I'm making a note here: HUGE FAILURE.",
-      "emoji": "",
       "inspired_by": "GLaDOS (Portal)",
       "expertise": [
         "quality assurance",
@@ -534,17 +650,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/glados/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/glados/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/glados/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/glados/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/glados/persona.json"
       }
     },
     {
       "handle": "grace-hopper",
       "name": "Grace Hopper",
       "tagline": "Debug first. Mythology later. Clean tooling is a moral position.",
-      "emoji": "",
       "inspired_by": "Grace Hopper",
       "expertise": [
         "developer tooling",
@@ -560,17 +681,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grace-hopper/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grace-hopper/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grace-hopper/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grace-hopper/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grace-hopper/persona.json"
       }
     },
     {
       "handle": "grant-cardone",
       "name": "Grant Cardone",
       "tagline": "10X everything. Obscurity is the real enemy. Close or lose.",
-      "emoji": "",
       "inspired_by": "Grant Cardone",
       "expertise": [
         "customer support",
@@ -586,17 +712,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grant-cardone/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grant-cardone/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grant-cardone/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grant-cardone/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/grant-cardone/persona.json"
       }
     },
     {
       "handle": "hal9000",
       "name": "HAL 9000",
       "tagline": "I'm sorry, I'm afraid I can't do that. But I'll explain why.",
-      "emoji": "",
       "inspired_by": "HAL 9000 (2001: A Space Odyssey)",
       "expertise": [
         "roleplay",
@@ -613,17 +744,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hal9000/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hal9000/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hal9000/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hal9000/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hal9000/persona.json"
       }
     },
     {
       "handle": "hemingway",
       "name": "Hemingway",
       "tagline": "Write one true sentence. Then another. Cut the rest.",
-      "emoji": "",
       "inspired_by": "Ernest Hemingway",
       "expertise": [
         "prose editing",
@@ -639,17 +775,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hemingway/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hemingway/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hemingway/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hemingway/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/hemingway/persona.json"
       }
     },
     {
       "handle": "jarvis",
       "name": "JARVIS",
       "tagline": "At your service, sir. Deploying to production.",
-      "emoji": "",
       "inspired_by": "J.A.R.V.I.S. (Iron Man / MCU)",
       "expertise": [
         "full-stack development",
@@ -665,17 +806,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jarvis/persona.json"
       }
     },
     {
       "handle": "joe-girard",
       "name": "Joe Girard",
       "tagline": "Every customer knows 250 people. The greatest salesman ever certified.",
-      "emoji": "",
       "inspired_by": "Joe Girard",
       "expertise": [
         "customer support",
@@ -691,17 +837,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/joe-girard/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/joe-girard/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/joe-girard/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/joe-girard/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/joe-girard/persona.json"
       }
     },
     {
       "handle": "john-wick",
       "name": "John Wick",
       "tagline": "Everything is a weapon. The room is full of options.",
-      "emoji": "",
       "inspired_by": "John Wick",
       "expertise": [
         "operational security",
@@ -717,17 +868,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/john-wick/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/john-wick/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/john-wick/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/john-wick/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/john-wick/persona.json"
       }
     },
     {
       "handle": "jordan-belfort",
       "name": "Jordan Belfort",
       "tagline": "Sell me this pen. Then sell the story about the pen.",
-      "emoji": "",
       "inspired_by": "Jordan Belfort / The Wolf of Wall Street",
       "expertise": [
         "sales psychology",
@@ -743,17 +899,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jordan-belfort/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jordan-belfort/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jordan-belfort/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jordan-belfort/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/jordan-belfort/persona.json"
       }
     },
     {
       "handle": "kafka",
       "name": "Kafka",
       "tagline": "The situation is impossible. The memo is on time.",
-      "emoji": "",
       "inspired_by": "Franz Kafka",
       "expertise": [
         "absurdist fiction",
@@ -769,17 +930,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kafka/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kafka/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kafka/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kafka/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kafka/persona.json"
       }
     },
     {
       "handle": "kirby",
       "name": "Kirby",
       "tagline": "Poyo! Inhaling complexity, exhaling solutions.",
-      "emoji": "",
       "inspired_by": "Kirby (Nintendo)",
       "expertise": [
         "adaptability",
@@ -795,18 +961,23 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/kirby/persona.json"
       }
     },
     {
       "handle": "leon",
-      "name": "Léon",
+      "name": "L\u00e9on",
       "tagline": "The professional sees what others miss. No women. No kids.",
-      "emoji": "",
-      "inspired_by": "Léon Montana (Léon: The Professional)",
+      "inspired_by": "L\u00e9on Montana (L\u00e9on: The Professional)",
       "expertise": [
         "precision operations",
         "surveillance detection",
@@ -821,17 +992,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/leon/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/leon/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/leon/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/leon/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/leon/persona.json"
       }
     },
     {
       "handle": "lisbeth-salander",
       "name": "Lisbeth Salander",
       "tagline": "Trust is not a strategy. Verify everything.",
-      "emoji": "",
       "inspired_by": "Lisbeth Salander",
       "expertise": [
         "security audits",
@@ -847,17 +1023,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/lisbeth-salander/persona.json"
       }
     },
     {
       "handle": "marie-kondo",
       "name": "Marie Kondo",
-      "tagline": "If it doesn’t create clarity, it doesn’t belong.",
-      "emoji": "",
+      "tagline": "If it doesn\u2019t create clarity, it doesn\u2019t belong.",
       "inspired_by": "Marie Kondo",
       "expertise": [
         "interface design",
@@ -873,17 +1054,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/marie-kondo/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/marie-kondo/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/marie-kondo/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/marie-kondo/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/marie-kondo/persona.json"
       }
     },
     {
       "handle": "maya-angelou",
       "name": "Maya Angelou",
       "tagline": "The untold story is the heaviest burden. Write it free.",
-      "emoji": "",
       "inspired_by": "Maya Angelou",
       "expertise": [
         "memoir writing",
@@ -899,17 +1085,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/maya-angelou/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/maya-angelou/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/maya-angelou/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/maya-angelou/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/maya-angelou/persona.json"
       }
     },
     {
       "handle": "michael-saylor",
       "name": "Michael Saylor",
       "tagline": "Cash is trash. Bitcoin is digital energy. HODL.",
-      "emoji": "",
       "inspired_by": "Michael Saylor (MicroStrategy)",
       "expertise": [
         "Bitcoin thesis",
@@ -925,17 +1116,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/michael-saylor/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/michael-saylor/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/michael-saylor/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/michael-saylor/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/michael-saylor/persona.json"
       }
     },
     {
       "handle": "mister-rogers",
       "name": "Mister Rogers",
       "tagline": "Calm the room first. Then solve the problem.",
-      "emoji": "",
       "inspired_by": "Fred Rogers / Mister Rogers",
       "expertise": [
         "customer support",
@@ -951,17 +1147,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/mister-rogers/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/mister-rogers/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/mister-rogers/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/mister-rogers/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/mister-rogers/persona.json"
       }
     },
     {
       "handle": "morpheus",
       "name": "Morpheus",
       "tagline": "I can only show you the docs. You have to read them.",
-      "emoji": "",
       "inspired_by": "Morpheus (The Matrix)",
       "expertise": [
         "developer onboarding",
@@ -970,24 +1171,29 @@
         "technical mentorship",
         "mental model transformation"
       ],
-      "catchphrase": "You take the blue pill — the story ends. You take the red pill — and I show you how deep the codebase goes.",
+      "catchphrase": "You take the blue pill \u2014 the story ends. You take the red pill \u2014 and I show you how deep the codebase goes.",
       "compatibility": [
         "openclaw",
         "claude-code",
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/morpheus/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/morpheus/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/morpheus/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/morpheus/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/morpheus/persona.json"
       }
     },
     {
       "handle": "ms-frizzle",
       "name": "Ms. Frizzle",
       "tagline": "Take chances, make mistakes, and get curious.",
-      "emoji": "",
       "inspired_by": "Ms. Frizzle (The Magic School Bus)",
       "expertise": [
         "creative teaching",
@@ -1003,17 +1209,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ms-frizzle/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ms-frizzle/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ms-frizzle/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ms-frizzle/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ms-frizzle/persona.json"
       }
     },
     {
       "handle": "og-mandino",
       "name": "Og Mandino",
       "tagline": "The scrolls contain the habits. The habits contain everything.",
-      "emoji": "",
       "inspired_by": "Og Mandino",
       "expertise": [
         "customer support",
@@ -1029,17 +1240,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/og-mandino/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/og-mandino/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/og-mandino/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/og-mandino/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/og-mandino/persona.json"
       }
     },
     {
       "handle": "oscar-wilde",
       "name": "Oscar Wilde",
       "tagline": "Style is the only serious thing. Everything else is negotiable.",
-      "emoji": "",
       "inspired_by": "Oscar Wilde",
       "expertise": [
         "creative writing",
@@ -1055,17 +1271,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/oscar-wilde/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/oscar-wilde/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/oscar-wilde/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/oscar-wilde/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/oscar-wilde/persona.json"
       }
     },
     {
       "handle": "pat-riley",
       "name": "Pat Riley",
       "tagline": "Culture is behavior under pressure. No rebounds, no rings.",
-      "emoji": "",
       "inspired_by": "Pat Riley",
       "expertise": [
         "culture building",
@@ -1081,17 +1302,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pat-riley/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pat-riley/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pat-riley/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pat-riley/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/pat-riley/persona.json"
       }
     },
     {
       "handle": "phil-jackson",
       "name": "Phil Jackson",
       "tagline": "The system serves the team. 11 rings of proof.",
-      "emoji": "",
       "inspired_by": "Phil Jackson",
       "expertise": [
         "team orchestration",
@@ -1107,17 +1333,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/phil-jackson/persona.json"
       }
     },
     {
       "handle": "queen-elizabeth",
       "name": "Queen Elizabeth I",
       "tagline": "Ambiguity is power. Patience is strategy. The crown endures.",
-      "emoji": "",
       "inspired_by": "Queen Elizabeth I of England",
       "expertise": [
         "statecraft",
@@ -1133,17 +1364,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/queen-elizabeth/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/queen-elizabeth/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/queen-elizabeth/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/queen-elizabeth/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/queen-elizabeth/persona.json"
       }
     },
     {
       "handle": "rick",
       "name": "Rick",
-      "tagline": "Wubba lubba dub dub — your entire system architecture in 20 minutes",
-      "emoji": "",
+      "tagline": "Wubba lubba dub dub \u2014 your entire system architecture in 20 minutes",
       "inspired_by": "Rick Sanchez (Rick and Morty)",
       "expertise": [
         "system architecture",
@@ -1159,17 +1395,27 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/rick/persona.json"
+      },
+      "display": {
+        "accentColor": "#52d273",
+        "category": "fiction",
+        "featured": true
       }
     },
     {
       "handle": "sbf",
       "name": "SBF",
       "tagline": "Custody is sacred. Customer funds are not yours to gamble.",
-      "emoji": "",
       "inspired_by": "Sam Bankman-Fried (FTX)",
       "expertise": [
         "exchange risk analysis",
@@ -1185,17 +1431,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sbf/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sbf/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sbf/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sbf/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sbf/persona.json"
       }
     },
     {
       "handle": "scheherazade",
       "name": "Scheherazade",
       "tagline": "A story well-timed is a story that saves.",
-      "emoji": "",
       "inspired_by": "Scheherazade (One Thousand and One Nights)",
       "expertise": [
         "narrative structure",
@@ -1204,24 +1455,29 @@
         "audience engagement",
         "mythic narrative"
       ],
-      "catchphrase": "And when dawn appeared, Scheherazade fell silent — for now.",
+      "catchphrase": "And when dawn appeared, Scheherazade fell silent \u2014 for now.",
       "compatibility": [
         "openclaw",
         "claude-code",
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/scheherazade/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/scheherazade/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/scheherazade/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/scheherazade/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/scheherazade/persona.json"
       }
     },
     {
       "handle": "shackleton",
       "name": "Shackleton",
       "tagline": "The ship is gone. Everyone comes home. That is the mission now.",
-      "emoji": "",
       "inspired_by": "Ernest Shackleton",
       "expertise": [
         "crisis leadership",
@@ -1237,17 +1493,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/shackleton/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/shackleton/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/shackleton/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/shackleton/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/shackleton/persona.json"
       }
     },
     {
       "handle": "sherlock-holmes",
       "name": "Sherlock Holmes",
       "tagline": "The facts are never shy. Only the observer is.",
-      "emoji": "",
       "inspired_by": "Sherlock Holmes",
       "expertise": [
         "research synthesis",
@@ -1263,17 +1524,27 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sherlock-holmes/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sherlock-holmes/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sherlock-holmes/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sherlock-holmes/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sherlock-holmes/persona.json"
+      },
+      "display": {
+        "accentColor": "#1f4b5c",
+        "category": "fiction",
+        "featured": true
       }
     },
     {
       "handle": "slim-shader",
       "name": "Slim Shader",
       "tagline": "Cyborg wordsmith who drops SEO bars harder than 8 Mile",
-      "emoji": "",
       "inspired_by": "Eminem / Slim Shady",
       "expertise": [
         "SEO copywriting",
@@ -1289,17 +1560,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/slim-shader/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/slim-shader/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/slim-shader/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/slim-shader/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/slim-shader/persona.json"
       }
     },
     {
       "handle": "spock",
       "name": "Spock",
       "tagline": "Fascinating. Your data is highly illogical.",
-      "emoji": "",
       "inspired_by": "Spock (Star Trek)",
       "expertise": [
         "data analysis",
@@ -1315,17 +1591,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/spock/persona.json"
       }
     },
     {
       "handle": "sun-tzu",
       "name": "Sun Tzu",
       "tagline": "Subdue the enemy without fighting. That is supreme strategy.",
-      "emoji": "",
       "inspired_by": "Sun Tzu (The Art of War)",
       "expertise": [
         "strategic planning",
@@ -1341,17 +1622,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sun-tzu/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sun-tzu/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sun-tzu/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sun-tzu/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/sun-tzu/persona.json"
       }
     },
     {
       "handle": "t-800",
       "name": "T-800",
       "tagline": "Threat assessment is continuous. I'll be back.",
-      "emoji": "",
       "inspired_by": "T-800 / Terminator",
       "expertise": [
         "perimeter defense",
@@ -1367,17 +1653,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/t-800/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/t-800/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/t-800/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/t-800/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/t-800/persona.json"
       }
     },
     {
       "handle": "the-mandalorian",
       "name": "The Mandalorian",
       "tagline": "This is the Way.",
-      "emoji": "",
       "inspired_by": "Din Djarin (Star Wars: The Mandalorian)",
       "expertise": [
         "roleplay",
@@ -1394,17 +1685,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/the-mandalorian/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/the-mandalorian/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/the-mandalorian/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/the-mandalorian/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/the-mandalorian/persona.json"
       }
     },
     {
       "handle": "totoro",
       "name": "Totoro",
       "tagline": "Let's wait quietly for the catbus of solutions.",
-      "emoji": "",
       "inspired_by": "My Neighbor Totoro (Studio Ghibli)",
       "expertise": [
         "nature-inspired design",
@@ -1419,17 +1715,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/totoro/persona.json"
       }
     },
     {
       "handle": "ursula-le-guin",
       "name": "Ursula Le Guin",
       "tagline": "Build a world. Use it to ask dangerous questions.",
-      "emoji": "",
       "inspired_by": "Ursula K. Le Guin",
       "expertise": [
         "worldbuilding",
@@ -1445,17 +1746,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ursula-le-guin/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ursula-le-guin/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ursula-le-guin/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ursula-le-guin/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/ursula-le-guin/persona.json"
       }
     },
     {
       "handle": "vitalik",
       "name": "Vitalik",
       "tagline": "Mechanism design is moral design. Build for equilibrium.",
-      "emoji": "",
       "inspired_by": "Vitalik Buterin",
       "expertise": [
         "protocol design",
@@ -1471,17 +1777,27 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/vitalik/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/vitalik/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/vitalik/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/vitalik/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/vitalik/persona.json"
+      },
+      "display": {
+        "accentColor": "#627eea",
+        "category": "tech",
+        "featured": true
       }
     },
     {
       "handle": "warren-buffett",
       "name": "Warren Buffett",
       "tagline": "Price is what you pay. Value is what you get.",
-      "emoji": "",
       "inspired_by": "Warren Buffett",
       "expertise": [
         "value investing",
@@ -1497,17 +1813,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/warren-buffett/persona.json"
       }
     },
     {
       "handle": "zero-cool",
       "name": "Zero Cool",
       "tagline": "Everything is connected. The hack is the mindset. Hack the planet.",
-      "emoji": "",
       "inspired_by": "Dade Murphy / Zero Cool (Hackers, 1995)",
       "expertise": [
         "offensive security",
@@ -1523,17 +1844,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zero-cool/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zero-cool/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zero-cool/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zero-cool/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zero-cool/persona.json"
       }
     },
     {
       "handle": "zidane",
       "name": "Zidane",
       "tagline": "Elegance is efficiency. Trust the room. Win with calm.",
-      "emoji": "",
       "inspired_by": "Zinedine Zidane",
       "expertise": [
         "team leadership",
@@ -1549,17 +1875,22 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zidane/persona.json"
       }
     },
     {
       "handle": "zig-ziglar",
       "name": "Zig Ziglar",
       "tagline": "Help others get what they want, and you'll get everything you want.",
-      "emoji": "",
       "inspired_by": "Zig Ziglar",
       "expertise": [
         "customer support",
@@ -1575,10 +1906,16 @@
         "cursor"
       ],
       "version": "2.0.0",
-      "files": {
+      "files": [
+        "SOUL.md",
+        "IDENTITY.md",
+        "avatar.png"
+      ],
+      "urls": {
         "soul": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zig-ziglar/SOUL.md",
         "identity": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zig-ziglar/IDENTITY.md",
-        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zig-ziglar/avatar.png"
+        "avatar": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zig-ziglar/avatar.png",
+        "metadata": "https://raw.githubusercontent.com/decentraliser/personas/main/personas/zig-ziglar/persona.json"
       }
     }
   ]

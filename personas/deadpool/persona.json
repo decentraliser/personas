@@ -19,6 +19,11 @@
     "cursor"
   ],
   "version": "2.0.0",
+  "display": {
+    "accentColor": "#cf1f2e",
+    "category": "fiction",
+    "featured": true
+  },
   "files": [
     "SOUL.md",
     "IDENTITY.md"

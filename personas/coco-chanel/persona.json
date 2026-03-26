@@ -18,6 +18,11 @@
     "cursor"
   ],
   "version": "2.0.0",
+  "display": {
+    "accentColor": "#111111",
+    "category": "creative",
+    "featured": true
+  },
   "files": [
     "SOUL.md",
     "IDENTITY.md"

@@ -29,7 +29,7 @@ def build():
             fn for fn in ["SOUL.md", "IDENTITY.md", "avatar.png"]
             if os.path.exists(os.path.join("personas", handle, fn))
         ]
-        personas.append({
+        persona = {
             "handle": handle,
             "name": meta.get("name", handle),
             "tagline": meta.get("tagline", ""),
@@ -45,7 +45,10 @@ def build():
                 "avatar": f"{BASE_RAW}/personas/{handle}/avatar.png",
                 "metadata": f"{BASE_RAW}/personas/{handle}/persona.json",
             }
-        })
+        }
+        if "display" in meta:
+            persona["display"] = meta["display"]
+        personas.append(persona)
 
     index = {
         "schema": "personas.index.v1",

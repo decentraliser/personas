@@ -124,8 +124,10 @@ When the user wants to share a persona with the community:
      "compatibility": ["openclaw"],
      "version": "2.0.0",
      "files": ["SOUL.md", "IDENTITY.md"]
-   }
-   ```
+    }
+    ```
+
+Optional metadata: add `display` for Claw OS card styling, plus the provenance fields below when the persona is a local fork.
 
 3. **Submit via GitHub:**
    - Fork `decentraliser/personas`

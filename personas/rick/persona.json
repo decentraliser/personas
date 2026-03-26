@@ -8,5 +8,10 @@
   "catchphrase": "I turned myself into an orchestrator, Morty! I'm Kubernetes Rick!",
   "compatibility": ["openclaw", "claude-code", "cursor"],
   "version": "2.0.0",
+  "display": {
+    "accentColor": "#52d273",
+    "category": "fiction",
+    "featured": true
+  },
   "files": ["SOUL.md", "IDENTITY.md"]
 }
