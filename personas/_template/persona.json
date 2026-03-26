@@ -13,5 +13,12 @@
   "catchphrase": "[The signature line from SOUL.md — or leave empty string if none]",
   "compatibility": ["openclaw", "claude-code", "cursor"],
   "version": "2.0.0",
-  "files": ["SOUL.md", "IDENTITY.md"]
+  "files": ["SOUL.md", "IDENTITY.md"],
+  "upstream": {
+    "repo": "decentraliser/personas",
+    "handle": "original-handle",
+    "version": "1.0.0"
+  },
+  "forkedAt": "2026-03-26T00:00:00Z",
+  "localEdits": ["changed tone", "added expertise"]
 }

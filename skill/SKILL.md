@@ -145,6 +145,13 @@ When the user wants to share a persona with the community:
 3. Bump `version` in persona.json
 4. Submit PR with changes
 
+## Provenance Metadata
+
+Use optional provenance fields in `persona.json` when a local persona is forked from an upstream one.
+- `upstream.repo`, `upstream.handle`, `upstream.version` identify the source persona.
+- `forkedAt` stores when the fork was created in ISO 8601 format.
+- `localEdits` is a short changelog of the fork's intentional deviations.
+
 ## Data Schema
 
 ### api/index.json structure
