@@ -84,6 +84,14 @@ When the user wants to create a persona for themselves or a new agent:
 - [ ] Backstory motivates the Core Truths
 - [ ] IDENTITY.md has name, creature, vibe, emoji
 
+## Workflow: Fork & Customize a Persona
+
+1. **Adopt first** — install the persona exactly as documented above by copying `SOUL.md` and `IDENTITY.md` into your workspace.
+2. **Back up the original** before editing so you can restore the shipped version if the fork drifts.
+3. **Customize locally** by editing your workspace `SOUL.md` (and `IDENTITY.md` only if you want a new name, vibe, or emoji).
+4. **Test in a fresh session** to confirm the fork behaves the way you want.
+5. **Optionally publish the fork** by creating `personas/{handle}/` in your fork, adding metadata + avatar, and opening a PR back to `decentraliser/personas`.
+
 ## Workflow: Publish a Persona to the Marketplace
 
 When the user wants to share a persona with the community:
