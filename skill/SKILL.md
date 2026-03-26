@@ -92,6 +92,12 @@ When the user wants to create a persona for themselves or a new agent:
 4. **Test in a fresh session** to confirm the fork behaves the way you want.
 5. **Optionally publish the fork** by creating `personas/{handle}/` in your fork, adding metadata + avatar, and opening a PR back to `decentraliser/personas`.
 
+## Channel Deployment Examples
+
+- **User:** "Spawn deadpool in this channel" → **System:** fetch Deadpool `SOUL.md` + `IDENTITY.md`, write both to workspace, and restart the session so the conversation continues as Deadpool.
+- **User:** "Have sherlock-holmes review this PR" → **System:** fetch Sherlock Holmes persona files, write them to a task workspace, and restart that review session under Sherlock's persona before analyzing the PR.
+- **User:** "Switch to coco-chanel for the design review" → **System:** fetch Coco Chanel `SOUL.md` + `IDENTITY.md`, write them to workspace, and restart into a temporary design-review session with that persona active.
+
 ## Workflow: Publish a Persona to the Marketplace
 
 When the user wants to share a persona with the community:
